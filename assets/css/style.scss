@@ -1,0 +1,31 @@
+---
+---
+
+// === Brand colours (override Cayman's defaults) ===
+
+// Header
+$header-bg-color: #242838;
+$header-bg-color-secondary: #353A50;
+$header-heading-color: #FFFFFF;
+
+// Section headings in the body
+$section-headings-color: #242838;
+
+// Body text — soft black for readability
+$body-text-color: #2A2A2A;
+
+// Links — distinct from headings and clearly clickable
+$body-link-color: #4A7BB7;
+
+// Secondary text (blockquotes, "last updated", etc.)
+$blockquote-text-color: #6B7280;
+
+// Borders and dividers
+$border-color: #E5E5E5;
+
+@import "{{ site.theme }}";
+
+// Hide the "View on GitHub" button in the header
+.btn {
+  display: none;
+}
