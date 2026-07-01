@@ -25,7 +25,10 @@ async function getAccessToken() {
 
     const response = await fetch(`${BASE_URL}/api/v1/oauth/generate_access_token`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+            'Content-Type': 'application/json',
+            'User-Agent': 'next-services-pipeline/1.0 (github-actions)',
+        },
         body: JSON.stringify({
             client_id: CLIENT_ID,
             client_secret: CLIENT_SECRET,
@@ -33,6 +36,10 @@ async function getAccessToken() {
     });
 
     if (!response.ok) {
+        const body = await response.text();
+        const headers = Object.fromEntries(response.headers.entries());
+        console.error('Response headers:', JSON.stringify(headers, null, 2));
+        console.error('Response body:', body);
         throw new Error(`Token request failed: ${response.status} ${response.statusText}`);
     }
 
