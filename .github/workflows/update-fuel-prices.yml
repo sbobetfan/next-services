@@ -25,6 +25,22 @@ jobs:
         working-directory: ./scripts
         run: npm ci
 
+      - name: Debug credentials presence
+        run: |
+            if [ -z "${{ secrets.FUEL_FINDER_CLIENT_ID }}" ]; then
+              echo "❌ FUEL_FINDER_CLIENT_ID is EMPTY"
+            else
+              echo "✅ FUEL_FINDER_CLIENT_ID is set (length: ${#FUEL_FINDER_CLIENT_ID_LEN} chars)"
+            fi
+            if [ -z "${{ secrets.FUEL_FINDER_CLIENT_SECRET }}" ]; then
+              echo "❌ FUEL_FINDER_CLIENT_SECRET is EMPTY"
+            else
+              echo "✅ FUEL_FINDER_CLIENT_SECRET is set (length: ${#FUEL_FINDER_CLIENT_SECRET_LEN} chars)"
+            fi
+          env:
+            FUEL_FINDER_CLIENT_ID_LEN: ${{ secrets.FUEL_FINDER_CLIENT_ID }}
+            FUEL_FINDER_CLIENT_SECRET_LEN: ${{ secrets.FUEL_FINDER_CLIENT_SECRET }}
+
       - name: Fetch fuel prices
         working-directory: ./scripts
         env:
