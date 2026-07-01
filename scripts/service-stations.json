@@ -1,0 +1,7079 @@
+[
+  {
+    "id": "grantham-north",
+    "name": "Grantham North",
+    "motorway": "A1",
+    "operatorName": "Moto",
+    "postcode": "NG32 2AB",
+    "latitude": 52.950611,
+    "longitude": -0.677963,
+    "what3words": "bystander.amaze.snitch",
+    "url": "https://motorwayservices.uk/Grantham_North",
+    "amenities": [
+      "toilets"
+    ]
+  },
+  {
+    "id": "baldock",
+    "name": "Baldock",
+    "motorway": "A1(M)",
+    "operatorName": "Extra",
+    "postcode": "SG7 5TR",
+    "latitude": 52.014526,
+    "longitude": -0.202459,
+    "what3words": "second.epidemics.staples",
+    "url": "https://motorwayservices.uk/Baldock",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "El Mexicana"
+        },
+        {
+          "name": "German Doner Kebab"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "West Cornwall Pasty Co."
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "GRIDSERVE Electric Freightway HPC",
+          "IONITY"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "blyth",
+    "name": "Blyth",
+    "motorway": "A1(M)",
+    "operatorName": "Moto",
+    "postcode": "S81 8HG",
+    "latitude": 53.382564,
+    "longitude": -1.062289,
+    "what3words": "tooth.lucky.lunching",
+    "url": "https://motorwayservices.uk/Blyth",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "durham",
+    "name": "Durham",
+    "motorway": "A1(M)",
+    "operatorName": "Roadchef",
+    "postcode": "DH6 5NP",
+    "latitude": 54.727922,
+    "longitude": -1.523025,
+    "what3words": "hockey.sues.waistcoat",
+    "url": "https://motorwayservices.uk/Durham",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Super 8 Hotel"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Shell Recharge"
+        ],
+        "maxKilowatts": 300,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "peterborough",
+    "name": "Peterborough",
+    "motorway": "A1(M)",
+    "operatorName": "Extra",
+    "postcode": "PE7 3UQ",
+    "latitude": 52.531657,
+    "longitude": -0.320689,
+    "what3words": "giraffes.formal.animal",
+    "url": "https://motorwayservices.uk/Peterborough",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "El Mexicana with Don Churro"
+        },
+        {
+          "name": "German Doner Kebab"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "West Cornwall Pasty Co."
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "IONITY"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "scotch-corner",
+    "name": "Scotch Corner",
+    "motorway": "A1(M)",
+    "operatorName": "Moto",
+    "postcode": "DL10 6PQ",
+    "latitude": 54.443996,
+    "longitude": -1.666338,
+    "what3words": "waistcoat.reclined.hoaxes",
+    "url": "https://motorwayservices.uk/Scotch_Corner",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "washington",
+    "name": "Washington",
+    "motorway": "A1(M)",
+    "operatorName": "Moto",
+    "postcode": "DH3 2SJ",
+    "latitude": 54.890285,
+    "longitude": -1.557512,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Washington",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "wetherby",
+    "name": "Wetherby",
+    "motorway": "A1(M)",
+    "operatorName": "Moto",
+    "postcode": "LS22 5GT",
+    "latitude": 53.946756,
+    "longitude": -1.368612,
+    "what3words": "piston.banquets.thrashed",
+    "url": "https://motorwayservices.uk/Wetherby",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cambridge",
+    "name": "Cambridge",
+    "motorway": "A14",
+    "operatorName": "Extra",
+    "postcode": "CB23 4WU",
+    "latitude": 52.268942,
+    "longitude": -0.008795,
+    "what3words": "loom.verse.kettles",
+    "url": "https://motorwayservices.uk/Cambridge",
+    "amenities": [
+      "toilets"
+    ]
+  },
+  {
+    "id": "sutton-scotney",
+    "name": "Sutton Scotney",
+    "motorway": "A34",
+    "operatorName": "Roadchef",
+    "postcode": "SO21 3JY",
+    "latitude": 51.156323,
+    "longitude": -1.344287,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Sutton_Scotney",
+    "amenities": [
+      "toilets"
+    ]
+  },
+  {
+    "id": "annandale-water",
+    "name": "Annandale Water",
+    "motorway": "A74(M)",
+    "operatorName": "Roadchef",
+    "postcode": "DG11 1HD",
+    "latitude": 55.21538,
+    "longitude": -3.415794,
+    "what3words": "angle.ringside.update",
+    "url": "https://motorwayservices.uk/Annandale_Water",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "The Breakfast Kitchen"
+        },
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Cornish Bakery"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "gretna-green",
+    "name": "Gretna Green",
+    "motorway": "A74(M)",
+    "operatorName": "Welcome Break",
+    "postcode": "DG16 5HQ",
+    "latitude": 55.010343,
+    "longitude": -3.084493,
+    "what3words": "compiler.tunnel.successes",
+    "url": "https://motorwayservices.uk/Gretna_Green",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger",
+          "IONITY"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "donington-park",
+    "name": "Donington Park",
+    "motorway": "M1",
+    "operatorName": "Moto",
+    "postcode": "DE74 2TN",
+    "latitude": 52.82176,
+    "longitude": -1.308152,
+    "what3words": "disco.tickling.braked",
+    "url": "https://motorwayservices.uk/Donington_Park",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "leicester-forest-east",
+    "name": "Leicester Forest East",
+    "motorway": "M1",
+    "operatorName": "Welcome Break",
+    "postcode": "LE3 3GB",
+    "latitude": 52.619002,
+    "longitude": -1.206122,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Leicester_Forest_East",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "london-gateway",
+    "name": "London Gateway",
+    "motorway": "M1",
+    "operatorName": "Welcome Break",
+    "postcode": "NW7 3HU",
+    "latitude": 51.631339,
+    "longitude": -0.264336,
+    "what3words": "card.beard.adopt",
+    "url": "https://motorwayservices.uk/London_Gateway",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "newport-pagnell",
+    "name": "Newport Pagnell",
+    "motorway": "M1",
+    "operatorName": "Welcome Break",
+    "postcode": "MK16 8DS",
+    "latitude": 52.08316,
+    "longitude": -0.748984,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Newport_Pagnell",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "northampton",
+    "name": "Northampton",
+    "motorway": "M1",
+    "operatorName": "Roadchef",
+    "postcode": "NN4 9QS",
+    "latitude": 52.209205,
+    "longitude": -0.944536,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Northampton",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "skelton-lake",
+    "name": "Skelton Lake",
+    "motorway": "M1",
+    "operatorName": "Extra",
+    "postcode": "LS9 0AS",
+    "latitude": 53.772696,
+    "longitude": -1.471273,
+    "what3words": "decks.claims.bunny",
+    "url": "https://motorwayservices.uk/Skelton_Lake",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "German Doner Kebab"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Nando's"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "IONITY"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Texaco"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "tibshelf",
+    "name": "Tibshelf",
+    "motorway": "M1",
+    "operatorName": "Roadchef",
+    "postcode": "DE55 5TZ",
+    "latitude": 53.133917,
+    "longitude": -1.332002,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Tibshelf",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "car_wash",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "toddington",
+    "name": "Toddington",
+    "motorway": "M1",
+    "operatorName": "Moto",
+    "postcode": "LU5 6HR",
+    "latitude": 51.947105,
+    "longitude": -0.503208,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Toddington",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Pret A Manger"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "Tanners"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "on both sides:  GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "trowell",
+    "name": "Trowell",
+    "motorway": "M1",
+    "operatorName": "Moto",
+    "postcode": "NG9 3PL",
+    "latitude": 52.961567,
+    "longitude": -1.268038,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Trowell",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "northbound only: GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 240,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "watford-gap",
+    "name": "Watford Gap",
+    "motorway": "M1",
+    "operatorName": "Roadchef",
+    "postcode": "NN6 7UZ",
+    "latitude": 52.307442,
+    "longitude": -1.123064,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Watford_Gap",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "The Garden Square Deli"
+        },
+        {
+          "name": "LEON"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "woodall",
+    "name": "Woodall",
+    "motorway": "M1",
+    "operatorName": "Welcome Break",
+    "postcode": "S26 7XR",
+    "latitude": 53.315212,
+    "longitude": -1.28137,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Woodall",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "on both sides:  Applegreen Electric",
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "woolley-edge",
+    "name": "Woolley Edge",
+    "motorway": "M1",
+    "operatorName": "Moto",
+    "postcode": "WF4 4LQ",
+    "latitude": 53.622277,
+    "longitude": -1.545422,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Woolley_Edge",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "M&S Food"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 200,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "medway",
+    "name": "Medway",
+    "motorway": "M2",
+    "operatorName": "Moto",
+    "postcode": "ME8 8PQ",
+    "latitude": 51.341571,
+    "longitude": 0.608164,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Medway",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "fleet",
+    "name": "Fleet",
+    "motorway": "M3",
+    "operatorName": "Welcome Break",
+    "postcode": "GU51 1AA",
+    "latitude": 51.295546,
+    "longitude": -0.855807,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Fleet",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "PizzaExpress"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "winchester",
+    "name": "Winchester",
+    "motorway": "M3",
+    "operatorName": "Moto",
+    "postcode": "SO21 1PP",
+    "latitude": 51.115258,
+    "longitude": -1.254577,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Winchester",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Pret A Manger"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 150,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cardiff-gate",
+    "name": "Cardiff Gate",
+    "motorway": "M4",
+    "operatorName": "Welcome Break",
+    "postcode": "CF23 8RA",
+    "latitude": 51.539936,
+    "longitude": -3.130235,
+    "what3words": "scope.line.open",
+    "url": "https://motorwayservices.uk/Cardiff_Gate",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "KFC Drive Thru"
+        },
+        {
+          "name": "KFC Drive Thru"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Drax"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cardiff-west",
+    "name": "Cardiff West",
+    "motorway": "M4",
+    "operatorName": "Moto",
+    "postcode": "CF72 8SA",
+    "latitude": 51.508527,
+    "longitude": -3.306812,
+    "what3words": "trying.butter.retail",
+    "url": "https://motorwayservices.uk/Cardiff_West",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "heston",
+    "name": "Heston",
+    "motorway": "M4",
+    "operatorName": "Moto",
+    "postcode": "TW5 9NB",
+    "latitude": 51.486656,
+    "longitude": -0.396126,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Heston",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "M&S Food"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "leigh-delamere",
+    "name": "Leigh Delamere",
+    "motorway": "M4",
+    "operatorName": "Moto",
+    "postcode": "SN14 6LB",
+    "latitude": 51.509721,
+    "longitude": -2.158694,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Leigh_Delamere",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "playground",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chow"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Burger King Drive Thru"
+        },
+        {
+          "name": "Burger King Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Tanners"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "westbound only: GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "magor",
+    "name": "Magor",
+    "motorway": "M4",
+    "operatorName": "Roadchef",
+    "postcode": "NP26 3YL",
+    "latitude": 51.587529,
+    "longitude": -2.837544,
+    "what3words": "fussed.reapply.assess",
+    "url": "https://motorwayservices.uk/Magor",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "The Breakfast Kitchen"
+        },
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "The Phat Pasty Co. (seasonal opening)"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "membury",
+    "name": "Membury",
+    "motorway": "M4",
+    "operatorName": "Welcome Break",
+    "postcode": "RG17 7TZ",
+    "latitude": 51.483486,
+    "longitude": -1.557164,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Membury",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Subway"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Waitrose & Partners"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 150,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "pont-abraham",
+    "name": "Pont Abraham",
+    "motorway": "M4",
+    "operatorName": "Roadchef",
+    "postcode": "SA4 0FU",
+    "latitude": 51.747475,
+    "longitude": -4.065935,
+    "what3words": "dodges.secure.widely",
+    "url": "https://motorwayservices.uk/Pont_Abraham",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "reading",
+    "name": "Reading",
+    "motorway": "M4",
+    "operatorName": "Moto",
+    "postcode": "RG30 3UQ",
+    "latitude": 51.423593,
+    "longitude": -1.036664,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Reading",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chow"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "Tanners"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "on both sides:  bp pulse",
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "sarn-park",
+    "name": "Sarn Park",
+    "motorway": "M4",
+    "operatorName": "Welcome Break",
+    "postcode": "CF32 9SY",
+    "latitude": 51.534969,
+    "longitude": -3.576388,
+    "what3words": "ankle.once.taken",
+    "url": "https://motorwayservices.uk/Sarn_Park",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "swansea",
+    "name": "Swansea",
+    "motorway": "M4",
+    "operatorName": "Moto",
+    "postcode": "SA4 9GT",
+    "latitude": 51.679246,
+    "longitude": -3.995317,
+    "what3words": "stops.work.last",
+    "url": "https://motorwayservices.uk/Swansea",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "bridgwater",
+    "name": "Bridgwater",
+    "motorway": "M5",
+    "operatorName": "Moto",
+    "postcode": "TA6 6TS",
+    "latitude": 51.106063,
+    "longitude": -2.994232,
+    "what3words": "drank.ranch.hunter",
+    "url": "https://motorwayservices.uk/Bridgwater",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 60,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cullompton",
+    "name": "Cullompton",
+    "motorway": "M5",
+    "operatorName": "Extra",
+    "postcode": "EX15 1PA",
+    "latitude": 50.857246,
+    "longitude": -3.375133,
+    "what3words": "swooning.pickup.amicably",
+    "url": "https://motorwayservices.uk/Cullompton",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "IONITY"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "exeter",
+    "name": "Exeter",
+    "motorway": "M5",
+    "operatorName": "Moto",
+    "postcode": "EX2 7HF",
+    "latitude": 50.714119,
+    "longitude": -3.464414,
+    "what3words": "stone.lamps.could",
+    "url": "https://motorwayservices.uk/Exeter",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chow"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "frankley",
+    "name": "Frankley",
+    "motorway": "M5",
+    "operatorName": "Moto",
+    "postcode": "B32 4AR",
+    "latitude": 52.430009,
+    "longitude": -2.016583,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Frankley",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "KFC"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "northbound only: GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "gloucester",
+    "name": "Gloucester",
+    "motorway": "M5",
+    "operatorName": "Westmorland",
+    "postcode": "GL4 0DN",
+    "latitude": 51.82025,
+    "longitude": -2.228626,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Gloucester",
+    "amenities": [
+      "changing_places",
+      "playground",
+      "showers",
+      "dog_walking",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "evCharging": {
+        "networks": [
+          "Tesla Supercharger",
+          "Westmorland Charging"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "gordano",
+    "name": "Gordano",
+    "motorway": "M5",
+    "operatorName": "Welcome Break",
+    "postcode": "BS20 7XG",
+    "latitude": 51.476944,
+    "longitude": -2.707088,
+    "what3words": "scale.blank.plays",
+    "url": "https://motorwayservices.uk/Gordano",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 130,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "michaelwood",
+    "name": "Michaelwood",
+    "motorway": "M5",
+    "operatorName": "Welcome Break",
+    "postcode": "GL11 6DD",
+    "latitude": 51.666644,
+    "longitude": -2.420143,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Michaelwood",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Subway"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "sedgemoor-north",
+    "name": "Sedgemoor (North)",
+    "motorway": "M5",
+    "operatorName": "Welcome Break",
+    "postcode": "BS24 0JL",
+    "latitude": 51.268825,
+    "longitude": -2.92405,
+    "what3words": "units.pigtails.thunder",
+    "url": "https://motorwayservices.uk/Sedgemoor_North",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 30,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "sedgemoor-south",
+    "name": "Sedgemoor (South)",
+    "motorway": "M5",
+    "operatorName": "Roadchef",
+    "postcode": "BS26 2UF",
+    "latitude": 51.269059,
+    "longitude": -2.919439,
+    "what3words": "deduced.marketing.tubes",
+    "url": "https://motorwayservices.uk/Sedgemoor_South",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Cornish Bakery"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "The Breakfast Kitchen"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "strensham",
+    "name": "Strensham",
+    "motorway": "M5",
+    "operatorName": "Roadchef",
+    "postcode": "WR8 0BZ",
+    "latitude": 52.064651,
+    "longitude": -2.157269,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Strensham",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "playground",
+      "showers",
+      "dog_walking",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Cornish Bakery"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "northbound only: GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "taunton-deane",
+    "name": "Taunton Deane",
+    "motorway": "M5",
+    "operatorName": "Roadchef",
+    "postcode": "TA3 7PF",
+    "latitude": 50.975507,
+    "longitude": -3.146758,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Taunton_Deane",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen (seasonal opening)"
+        },
+        {
+          "name": "Cornish Bakery (seasonal opening)"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Fresh Food Café"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "northbound only: GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 100,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "burton-in-kendal",
+    "name": "Burton-in-Kendal",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "LA6 1JF",
+    "latitude": 54.179156,
+    "longitude": -2.733711,
+    "what3words": "ideal.awakening.parties",
+    "url": "https://motorwayservices.uk/Burton-in-Kendal",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "charnock-richard",
+    "name": "Charnock Richard",
+    "motorway": "M6",
+    "operatorName": "Welcome Break",
+    "postcode": "PR7 5LR",
+    "latitude": 53.629996,
+    "longitude": -2.692571,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Charnock_Richard",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "on both sides:  GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "corley",
+    "name": "Corley",
+    "motorway": "M6",
+    "operatorName": "Welcome Break",
+    "postcode": "CV7 8NR",
+    "latitude": 52.471838,
+    "longitude": -1.546719,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Corley",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "InstaVolt"
+        ],
+        "maxKilowatts": 125,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "hilton-park",
+    "name": "Hilton Park",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "WV11 2AT",
+    "latitude": 52.64243,
+    "longitude": -2.054986,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Hilton_Park",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "car_wash",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "keele",
+    "name": "Keele",
+    "motorway": "M6",
+    "operatorName": "Welcome Break",
+    "postcode": "ST5 5HG",
+    "latitude": 52.993612,
+    "longitude": -2.290131,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Keele",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 130,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "killington-lake",
+    "name": "Killington Lake",
+    "motorway": "M6",
+    "operatorName": "Roadchef",
+    "postcode": "LA8 0NW",
+    "latitude": 54.314024,
+    "longitude": -2.635122,
+    "what3words": "poorly.yard.obeyed",
+    "url": "https://motorwayservices.uk/Killington_Lake",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 290,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "knutsford",
+    "name": "Knutsford",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "WA16 0TL",
+    "latitude": 53.300974,
+    "longitude": -2.400877,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Knutsford",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "lancaster-forton",
+    "name": "Lancaster (Forton)",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "LA2 9DU",
+    "latitude": 53.961657,
+    "longitude": -2.760578,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Lancaster",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "sandbach",
+    "name": "Sandbach",
+    "motorway": "M6",
+    "operatorName": "Roadchef",
+    "postcode": "CW11 2FZ",
+    "latitude": 53.139358,
+    "longitude": -2.335809,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Sandbach",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "Chozen"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "southwaite",
+    "name": "Southwaite",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "CA4 0NT",
+    "latitude": 54.798923,
+    "longitude": -2.869965,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Southwaite",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "KFC"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 140,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "stafford-north",
+    "name": "Stafford (North)",
+    "motorway": "M6",
+    "operatorName": "Moto",
+    "postcode": "ST15 0EU",
+    "latitude": 52.884344,
+    "longitude": -2.170513,
+    "what3words": "gift.widest.chap",
+    "url": "https://motorwayservices.uk/Stafford_North",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "playground",
+      "car_wash",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "bp pulse",
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 300,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "stafford-south",
+    "name": "Stafford (South)",
+    "motorway": "M6",
+    "operatorName": "Roadchef & Asda",
+    "postcode": "ST15 0XE",
+    "latitude": 52.873211,
+    "longitude": -2.161198,
+    "what3words": "unfolds.proofs.brambles",
+    "url": "https://motorwayservices.uk/Stafford_South",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "The Garden Square Deli"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "tebay",
+    "name": "Tebay",
+    "motorway": "M6",
+    "operatorName": "Westmorland",
+    "postcode": "CA10 3SB",
+    "latitude": 54.449662,
+    "longitude": -2.609986,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Tebay",
+    "amenities": [
+      "changing_places",
+      "playground",
+      "showers",
+      "dog_walking",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "evCharging": {
+        "networks": [
+          "Tesla Supercharger",
+          "Westmorland Charging"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "norton-canes",
+    "name": "Norton Canes",
+    "motorway": "M6 Toll",
+    "operatorName": "Roadchef",
+    "postcode": "WS11 9UX",
+    "latitude": 52.665048,
+    "longitude": -1.96782,
+    "what3words": "tries.armed.legend",
+    "url": "https://motorwayservices.uk/Norton_Canes",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "stirling",
+    "name": "Stirling",
+    "motorway": "M9 / M80",
+    "operatorName": "Moto",
+    "postcode": "FK7 8EU",
+    "latitude": 56.07612,
+    "longitude": -3.921595,
+    "what3words": "paddocks.workers.fall",
+    "url": "https://motorwayservices.uk/Stirling",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 225,
+        "connectorTypes": [
+          "CCS"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "birchanger-green",
+    "name": "Birchanger Green",
+    "motorway": "M11",
+    "operatorName": "Welcome Break",
+    "postcode": "CM23 5QZ",
+    "latitude": 51.871647,
+    "longitude": 0.194809,
+    "what3words": "mason.alert.never",
+    "url": "https://motorwayservices.uk/Birchanger_Green",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "doncaster-north",
+    "name": "Doncaster North",
+    "motorway": "M18",
+    "operatorName": "Moto",
+    "postcode": "DN8 5GS",
+    "latitude": 53.592171,
+    "longitude": -0.99233,
+    "what3words": "springing.arranger.reference",
+    "url": "https://motorwayservices.uk/Doncaster_North",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "maidstone",
+    "name": "Maidstone",
+    "motorway": "M20",
+    "operatorName": "Roadchef",
+    "postcode": "ME17 1SS",
+    "latitude": 51.266596,
+    "longitude": 0.613896,
+    "what3words": "newsprint.folks.liability",
+    "url": "https://motorwayservices.uk/Maidstone",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "IONITY"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "pease-pottage",
+    "name": "Pease Pottage",
+    "motorway": "M23",
+    "operatorName": "Moto",
+    "postcode": "RH11 9YA",
+    "latitude": 51.083312,
+    "longitude": -0.199912,
+    "what3words": "zips.owner.tricks",
+    "url": "https://motorwayservices.uk/Pease_Pottage",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "clacket-lane",
+    "name": "Clacket Lane",
+    "motorway": "M25",
+    "operatorName": "Roadchef",
+    "postcode": "TN16 2ER",
+    "latitude": 51.271038,
+    "longitude": 0.039875,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Clacket_Lane",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Fresh Food Café"
+        },
+        {
+          "name": "Coco di Mama"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 240,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cobham",
+    "name": "Cobham",
+    "motorway": "M25",
+    "operatorName": "Extra",
+    "postcode": "KT11 3DB",
+    "latitude": 51.304268,
+    "longitude": -0.405875,
+    "what3words": "case.feel.slowly",
+    "url": "https://motorwayservices.uk/Cobham",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "El Mexicana with Don Churro"
+        },
+        {
+          "name": "German Doner Kebab"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Nando's"
+        },
+        {
+          "name": "PizzaExpress"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Tapori"
+        },
+        {
+          "name": "West Cornwall Pasty Co."
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "IONITY"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "south-mimms",
+    "name": "South Mimms",
+    "motorway": "M25",
+    "operatorName": "Welcome Break",
+    "postcode": "EN6 3QQ",
+    "latitude": 51.687535,
+    "longitude": -0.221867,
+    "what3words": "corn.king.aware",
+    "url": "https://motorwayservices.uk/South_Mimms",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "PizzaExpress"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "thurrock",
+    "name": "Thurrock",
+    "motorway": "M25",
+    "operatorName": "Moto",
+    "postcode": "RM16 3BG",
+    "latitude": 51.492281,
+    "longitude": 0.272282,
+    "what3words": "mobile.puts.reach",
+    "url": "https://motorwayservices.uk/Thurrock",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "rownhams",
+    "name": "Rownhams",
+    "motorway": "M27",
+    "operatorName": "Roadchef",
+    "postcode": "SO16 8AP",
+    "latitude": 50.952633,
+    "longitude": -1.452041,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Rownhams",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "Pret A Manger"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "Phone Tech"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "beaconsfield",
+    "name": "Beaconsfield",
+    "motorway": "M40",
+    "operatorName": "Extra",
+    "postcode": "HP9 2SE",
+    "latitude": 51.587894,
+    "longitude": -0.628189,
+    "what3words": "crazy.prefer.fades",
+    "url": "https://motorwayservices.uk/Beaconsfield",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "El Mexicana with Don Churro"
+        },
+        {
+          "name": "German Doner Kebab"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Nando's"
+        },
+        {
+          "name": "PizzaExpress"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Tapori"
+        },
+        {
+          "name": "West Cornwall Pasty Co."
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "ibis budget"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "IONITY"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "cherwell-valley",
+    "name": "Cherwell Valley",
+    "motorway": "M40",
+    "operatorName": "Moto",
+    "postcode": "OX27 7RD",
+    "latitude": 51.950105,
+    "longitude": -1.199916,
+    "what3words": "dissolve.deflation.depend",
+    "url": "https://motorwayservices.uk/Cherwell_Valley",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Simply Food"
+        },
+        {
+          "name": "Tanners"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 175,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "oxford",
+    "name": "Oxford",
+    "motorway": "M40",
+    "operatorName": "Welcome Break",
+    "postcode": "OX33 1LJ",
+    "latitude": 51.738038,
+    "longitude": -1.097191,
+    "what3words": "seriously.grabs.paving",
+    "url": "https://motorwayservices.uk/Oxford",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "PizzaExpress"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Taco Bell"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WYE"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Ramada"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 150,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "warwick",
+    "name": "Warwick",
+    "motorway": "M40",
+    "operatorName": "Welcome Break",
+    "postcode": "CV35 0AA",
+    "latitude": 52.216492,
+    "longitude": -1.505409,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Warwick",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "on both sides:  GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "hopwood-park",
+    "name": "Hopwood Park",
+    "motorway": "M42",
+    "operatorName": "Welcome Break",
+    "postcode": "B48 7AU",
+    "latitude": 52.363687,
+    "longitude": -1.945905,
+    "what3words": "idea.lines.improving",
+    "url": "https://motorwayservices.uk/Hopwood_Park",
+    "amenities": [
+      "food",
+      "shops",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "Little Waitrose & Partners"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "tamworth",
+    "name": "Tamworth",
+    "motorway": "M42",
+    "operatorName": "Moto",
+    "postcode": "B77 5PS",
+    "latitude": 52.607477,
+    "longitude": -1.640331,
+    "what3words": "joined.retire.brave",
+    "url": "https://motorwayservices.uk/Tamworth",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Krispy Kreme"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "severn-view",
+    "name": "Severn View",
+    "motorway": "M48",
+    "operatorName": "Moto",
+    "postcode": "BS35 4BH",
+    "latitude": 51.603827,
+    "longitude": -2.621255,
+    "what3words": "segments.carpentry.whirlwind",
+    "url": "https://motorwayservices.uk/Severn_View",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "dog_walking",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "telford",
+    "name": "Telford",
+    "motorway": "M54",
+    "operatorName": "Welcome Break",
+    "postcode": "TF11 8TG",
+    "latitude": 52.677301,
+    "longitude": -2.400242,
+    "what3words": "simply.half.guesswork",
+    "url": "https://motorwayservices.uk/Telford",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "Waitrose & Partners"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "chester",
+    "name": "Chester",
+    "motorway": "M56",
+    "operatorName": "Roadchef",
+    "postcode": "CH2 4QZ",
+    "latitude": 53.268295,
+    "longitude": -2.802359,
+    "what3words": "shudders.joys.warms",
+    "url": "https://motorwayservices.uk/Chester",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Chozen"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "The Garden Square Deli"
+        },
+        {
+          "name": "LEON"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
+        },
+        {
+          "name": "Phone Tech"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Super 8 Hotel"
+      },
+      "evCharging": {
+        "networks": [
+          "Shell Recharge",
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "rivington",
+    "name": "Rivington",
+    "motorway": "M61",
+    "operatorName": "EG On The Move",
+    "postcode": "BL6 5UZ",
+    "latitude": 53.600516,
+    "longitude": -2.573029,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Rivington",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "dog_walking",
+      "playground",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "SPAR"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "EV On The Move",
+          "EV On The Move eHGV"
+        ],
+        "maxKilowatts": 360,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "birch",
+    "name": "Birch",
+    "motorway": "M62",
+    "operatorName": "Moto",
+    "postcode": "OL10 2RB",
+    "latitude": 53.566051,
+    "longitude": -2.228462,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Birch",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "Tesla Superchargers"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "burtonwood",
+    "name": "Burtonwood",
+    "motorway": "M62",
+    "operatorName": "Welcome Break",
+    "postcode": "WA5 3AX",
+    "latitude": 53.417262,
+    "longitude": -2.637953,
+    "what3words": "ownership.owners.majority",
+    "url": "https://motorwayservices.uk/Burtonwood",
+    "amenities": [
+      "food",
+      "shops",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Yorkshire Tea"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 400,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "ferrybridge",
+    "name": "Ferrybridge",
+    "motorway": "M62",
+    "operatorName": "Moto",
+    "postcode": "WF11 0AF",
+    "latitude": 53.697621,
+    "longitude": -1.266668,
+    "what3words": "salads.pirate.fuel",
+    "url": "https://motorwayservices.uk/Ferrybridge",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Pret A Manger"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "hartshead-moor",
+    "name": "Hartshead Moor",
+    "motorway": "M62",
+    "operatorName": "Welcome Break",
+    "postcode": "HD6 4JX",
+    "latitude": 53.714342,
+    "longitude": -1.746463,
+    "what3words": null,
+    "url": "https://motorwayservices.uk/Hartshead_Moor",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "car_wash",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Starbucks"
+        },
+        {
+          "name": "Subway"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "KFC"
+        },
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "The Good Breakfast"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        },
+        {
+          "name": "Waitrose & Partners"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 180,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "blackburn-with-darwen",
+    "name": "Blackburn with Darwen",
+    "motorway": "M65",
+    "operatorName": "Extra",
+    "postcode": "BB3 0DB",
+    "latitude": 53.713168,
+    "longitude": -2.476362,
+    "what3words": "packet.upper.eagle",
+    "url": "https://motorwayservices.uk/Blackburn_with_Darwen",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "changing_places",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WYE"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway",
+          "IONITY"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Shell"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "abington",
+    "name": "Abington",
+    "motorway": "M74",
+    "operatorName": "Welcome Break",
+    "postcode": "ML12 6RG",
+    "latitude": 55.507502,
+    "longitude": -3.695989,
+    "what3words": "devotion.heartache.basis",
+    "url": "https://motorwayservices.uk/Abington",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Chopstix Noodle Bar"
+        },
+        {
+          "name": "The Good Breakfast"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "The Phat Pasty Co."
+        },
+        {
+          "name": "Rollover"
+        },
+        {
+          "name": "Slush Puppie"
+        },
+        {
+          "name": "Starbucks on the Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "Applegreen Electric",
+          "GRIDSERVE Electric Highway",
+          "Tesla Supercharger"
+        ],
+        "maxKilowatts": 250,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Welcome Break"
+        ],
+        "hgvLane": true
+      }
+    }
+  },
+  {
+    "id": "bothwell",
+    "name": "Bothwell",
+    "motorway": "M74",
+    "operatorName": "Roadchef",
+    "postcode": "G71 8BG",
+    "latitude": 55.815528,
+    "longitude": -4.063513,
+    "what3words": "casino.maker.waddled",
+    "url": "https://motorwayservices.uk/Bothwell",
+    "amenities": [
+      "food",
+      "shops",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Costa Express"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "hamilton",
+    "name": "Hamilton",
+    "motorway": "M74",
+    "operatorName": "Roadchef",
+    "postcode": "ML3 6JW",
+    "latitude": 55.787109,
+    "longitude": -4.035104,
+    "what3words": "inches.noted.teach",
+    "url": "https://motorwayservices.uk/Hamilton",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "McDonald's"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Costa Drive Thru"
+        }
+      ],
+      "shops": [
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Days Inn"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway"
+        ],
+        "maxKilowatts": 50,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "Esso"
+        ],
+        "hgvLane": null
+      }
+    }
+  },
+  {
+    "id": "kinross",
+    "name": "Kinross",
+    "motorway": "M90",
+    "operatorName": "Moto",
+    "postcode": "KY13 0NQ",
+    "latitude": 56.208744,
+    "longitude": -3.443989,
+    "what3words": "telephone.searches.pastime",
+    "url": "https://motorwayservices.uk/Kinross",
+    "amenities": [
+      "food",
+      "shops",
+      "accommodation",
+      "showers",
+      "picnic_area",
+      "ev_charging",
+      "fuel",
+      "toilets"
+    ],
+    "details": {
+      "foodAndDrink": [
+        {
+          "name": "Burger King"
+        },
+        {
+          "name": "Costa Coffee"
+        },
+        {
+          "name": "Greggs"
+        },
+        {
+          "name": "Costa Express"
+        },
+        {
+          "name": "Krispy Kreme"
+        },
+        {
+          "name": "M&S Coffee to Go"
+        }
+      ],
+      "shops": [
+        {
+          "name": "M&S Food"
+        },
+        {
+          "name": "WHSmith"
+        }
+      ],
+      "accommodation": {
+        "name": "Travelodge"
+      },
+      "evCharging": {
+        "networks": [
+          "GRIDSERVE Electric Highway HPC"
+        ],
+        "maxKilowatts": 350,
+        "connectorTypes": [
+          "CCS",
+          "CHAdeMO",
+          "Type 2"
+        ],
+        "totalBays": null
+      },
+      "fuel": {
+        "brands": [
+          "BP"
+        ],
+        "hgvLane": null
+      }
+    }
+  }
+]

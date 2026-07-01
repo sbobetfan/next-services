@@ -1,0 +1,16 @@
+{
+  "name": "next-services-pipeline",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Fetches fuel prices from Fuel Finder and generates fuel-prices.json for the Next Services iOS app",
+  "scripts": {
+    "fetch-pfs": "node fetch-pfs.mjs",
+    "build-mapping": "node build-mapping.mjs",
+    "augment-mapping": "node augment-mapping.mjs",
+    "refine-mapping": "node refine-mapping.mjs",
+    "update-prices": "node update-prices.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
