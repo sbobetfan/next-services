@@ -59,7 +59,13 @@ async function fetchPriceBatch(token, batchNumber) {
     });
 
     if (!response.ok) {
-        return { done: true, status: response.status };
+        // 404 = past the last batch, a clean end
+        if (response.status === 404) {
+            return { done: true, status: 404 };
+        }
+        // Any other error is transient (503, 502, timeout, etc.)
+        // Throw so main() can abort without wiping the JSON.
+        throw new Error(`Batch ${batchNumber} failed with HTTP ${response.status}`);
     }
 
     const data = await response.json();
@@ -68,7 +74,18 @@ async function fetchPriceBatch(token, batchNumber) {
         return { done: true };
     }
 
-    const forecourts = Array.isArray(data) ? data : data.data;
+    // The API has returned three different shapes over time:
+    //   - an array directly
+    //   - { data: [...] } wrapper
+    //   - an object with numeric string keys ({ "0": {...}, "1": {...} })
+    let forecourts;
+    if (Array.isArray(data)) {
+        forecourts = data;
+    } else if (Array.isArray(data?.data)) {
+        forecourts = data.data;
+    } else if (data && typeof data === 'object') {
+        forecourts = Object.values(data);
+    }
     if (!Array.isArray(forecourts) || forecourts.length === 0) {
         return { done: true };
     }
@@ -106,7 +123,13 @@ async function main() {
     while (true) {
         process.stdout.write(`   Batch ${batchNumber}... `);
 
-        const result = await fetchPriceBatch(token, batchNumber);
+        let result;
+        try {
+            result = await fetchPriceBatch(token, batchNumber);
+        } catch (err) {
+            console.log('failed');
+            throw err;
+        }
 
         if (result.done) {
             console.log(result.status ? `end (HTTP ${result.status})` : 'end');
@@ -167,6 +190,10 @@ async function main() {
             outputStations[stationId] = { forecourts };
             stationsWithData++;
         }
+    }
+
+    if (Object.keys(outputStations).length === 0) {
+        throw new Error('Refusing to write empty stations object. The pipeline likely hit a transient API issue.');
     }
 
     const output = {
