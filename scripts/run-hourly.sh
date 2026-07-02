@@ -29,6 +29,7 @@ git add data/fuel-prices.json
 
 if git diff --staged --quiet; then
   echo "No changes to fuel-prices.json — skipping commit."
+  curl -fsS --retry 3 "$HEALTHCHECK_URL" > /dev/null
   exit 0
 fi
 
