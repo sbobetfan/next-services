@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-02T19:33:44.809Z",
+  "updated_at": "2026-07-03T09:06:13.967Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -299,12 +299,12 @@
           "direction": null,
           "brand": "TEXACO",
           "prices": {
-            "E5": 186.9,
-            "E10": 168.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 203.9
+            "E5": 185.9,
+            "E10": 167.9,
+            "B7_STANDARD": 184.9,
+            "B7_PREMIUM": 202.9
           },
-          "last_updated": "2026-07-02T13:57:19.000Z"
+          "last_updated": "2026-07-03T08:49:54.000Z"
         }
       ]
     },
