@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-04T17:17:06.072Z",
+  "updated_at": "2026-07-06T00:15:17.165Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -16,36 +16,6 @@
         }
       ]
     },
-    "baldock": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "SHELL",
-          "prices": {
-            "E5": 199.9,
-            "E10": 171.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 214.9
-          },
-          "last_updated": "2026-06-24T09:49:03.000Z"
-        }
-      ]
-    },
-    "blyth": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E5": 185.9,
-            "E10": 166.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-30T22:33:05.000Z"
-        }
-      ]
-    },
     "durham": {
       "forecourts": [
         {
@@ -58,36 +28,6 @@
             "B7_PREMIUM": 209.9
           },
           "last_updated": "2026-07-04T09:57:02.000Z"
-        }
-      ]
-    },
-    "peterborough": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "SHELL",
-          "prices": {
-            "E5": 184.9,
-            "E10": 165.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 209.9
-          },
-          "last_updated": "2026-06-19T09:09:02.000Z"
-        }
-      ]
-    },
-    "scotch-corner": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E5": 192.9,
-            "E10": 173.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-30T22:48:56.000Z"
         }
       ]
     },
@@ -158,36 +98,6 @@
         }
       ]
     },
-    "annandale-water": {
-      "forecourts": [
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "gretna-green": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 189.9,
-            "E10": 175.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 195.9
-          },
-          "last_updated": "2026-06-29T22:37:13.000Z"
-        }
-      ]
-    },
     "donington-park": {
       "forecourts": [
         {
@@ -200,96 +110,6 @@
             "B7_PREMIUM": 200.9
           },
           "last_updated": "2026-07-03T15:10:31.000Z"
-        }
-      ]
-    },
-    "leicester-forest-east": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:30:41.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:31:20.000Z"
-        }
-      ]
-    },
-    "london-gateway": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
-          },
-          "last_updated": "2026-06-29T09:31:58.000Z"
-        }
-      ]
-    },
-    "newport-pagnell": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
-          },
-          "last_updated": "2026-06-29T09:33:54.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
-          },
-          "last_updated": "2026-06-29T09:34:31.000Z"
-        }
-      ]
-    },
-    "northampton": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
         }
       ]
     },
@@ -386,58 +206,6 @@
         }
       ]
     },
-    "watford-gap": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:00:10.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:00:10.000Z"
-        }
-      ]
-    },
-    "woodall": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:39:41.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:40:22.000Z"
-        }
-      ]
-    },
     "woolley-edge": {
       "forecourts": [
         {
@@ -487,73 +255,6 @@
             "B7_PREMIUM": 200.9
           },
           "last_updated": "2026-07-03T15:05:21.000Z"
-        }
-      ]
-    },
-    "fleet": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:24:40.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:25:35.000Z"
-        }
-      ]
-    },
-    "winchester": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:00:10.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "cardiff-gate": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 164.9,
-            "E10": 152.9,
-            "B7_STANDARD": 177.9,
-            "B7_PREMIUM": 189.9
-          },
-          "last_updated": "2026-06-29T09:20:27.000Z"
         }
       ]
     },
@@ -636,87 +337,6 @@
             "B7_PREMIUM": 201.9
           },
           "last_updated": "2026-07-02T14:00:46.000Z"
-        }
-      ]
-    },
-    "membury": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:33:17.000Z"
-        },
-        {
-          "direction": "Westbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:32:39.000Z"
-        }
-      ]
-    },
-    "pont-abraham": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E10": 176.9,
-            "B7_STANDARD": 194.9
-          },
-          "last_updated": "2026-06-30T21:33:40.000Z"
-        }
-      ]
-    },
-    "reading": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        },
-        {
-          "direction": "Westbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9,
-            "HVO": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "sarn-park": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 164.9,
-            "E10": 152.9,
-            "B7_STANDARD": 177.9,
-            "B7_PREMIUM": 189.9
-          },
-          "last_updated": "2026-06-29T09:37:50.000Z"
         }
       ]
     },
@@ -806,89 +426,6 @@
         }
       ]
     },
-    "gloucester": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "Esso",
-          "prices": {
-            "E5": 190.9,
-            "E10": 170.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 205.9
-          },
-          "last_updated": "2026-06-26T10:27:22.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "Esso",
-          "prices": {
-            "E5": 190.9,
-            "E10": 170.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 205.9
-          },
-          "last_updated": "2026-06-26T10:27:27.000Z"
-        }
-      ]
-    },
-    "gordano": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:26:17.000Z"
-        }
-      ]
-    },
-    "michaelwood": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9,
-            "HVO": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "sedgemoor-north": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:38:32.000Z"
-        }
-      ]
-    },
     "sedgemoor-south": {
       "forecourts": [
         {
@@ -901,21 +438,6 @@
             "B7_PREMIUM": 209.9
           },
           "last_updated": "2026-07-03T16:03:02.000Z"
-        }
-      ]
-    },
-    "strensham": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "BP",
-          "prices": {
-            "E5": 199.9,
-            "E10": 180.9,
-            "B7_STANDARD": 193.9,
-            "B7_PREMIUM": 212.9
-          },
-          "last_updated": "2026-06-30T22:45:00.000Z"
         }
       ]
     },
@@ -960,57 +482,6 @@
         }
       ]
     },
-    "charnock-richard": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
-          },
-          "last_updated": "2026-06-29T09:21:14.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:22:10.000Z"
-        }
-      ]
-    },
-    "corley": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:22:56.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:23:39.000Z"
-        }
-      ]
-    },
     "hilton-park": {
       "forecourts": [
         {
@@ -1034,46 +505,6 @@
             "B7_PREMIUM": 209.9
           },
           "last_updated": "2026-07-04T16:50:17.000Z"
-        }
-      ]
-    },
-    "keele": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
-          },
-          "last_updated": "2026-06-29T09:29:14.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:29:51.000Z"
-        }
-      ]
-    },
-    "killington-lake": {
-      "forecourts": [
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
         }
       ]
     },
@@ -1129,32 +560,6 @@
         }
       ]
     },
-    "sandbach": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
     "southwaite": {
       "forecourts": [
         {
@@ -1178,78 +583,6 @@
             "B7_PREMIUM": 203.9
           },
           "last_updated": "2026-07-04T16:55:23.000Z"
-        }
-      ]
-    },
-    "stafford-north": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9,
-            "HVO": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "stafford-south": {
-      "forecourts": [
-        {
-          "direction": "Southbound",
-          "brand": "ESSO",
-          "prices": {
-            "E5": 198.9,
-            "E10": 179.9,
-            "B7_STANDARD": 191.9,
-            "B7_PREMIUM": 210.9
-          },
-          "last_updated": "2026-06-30T17:13:06.000Z"
-        }
-      ]
-    },
-    "tebay": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "Esso",
-          "prices": {
-            "E5": 188.9,
-            "E10": 168.9,
-            "B7_STANDARD": 183.9,
-            "B7_PREMIUM": 203.9
-          },
-          "last_updated": "2026-06-23T12:51:26.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "Esso",
-          "prices": {
-            "E5": 188.9,
-            "E10": 168.9,
-            "B7_STANDARD": 183.9,
-            "B7_PREMIUM": 203.9
-          },
-          "last_updated": "2026-06-23T12:52:08.000Z"
-        }
-      ]
-    },
-    "norton-canes": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
         }
       ]
     },
@@ -1298,21 +631,6 @@
         }
       ]
     },
-    "maidstone": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E5": 189.9,
-            "E10": 175.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 195.9
-          },
-          "last_updated": "2026-06-29T22:25:39.000Z"
-        }
-      ]
-    },
     "pease-pottage": {
       "forecourts": [
         {
@@ -1325,32 +643,6 @@
             "B7_PREMIUM": 200.9
           },
           "last_updated": "2026-07-03T15:10:20.000Z"
-        }
-      ]
-    },
-    "clacket-lane": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 206.9
-          },
-          "last_updated": "2026-06-30T09:00:00.000Z"
-        },
-        {
-          "direction": "Westbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 206.9
-          },
-          "last_updated": "2026-06-30T09:00:00.000Z"
         }
       ]
     },
@@ -1369,62 +661,6 @@
         }
       ]
     },
-    "south-mimms": {
-      "forecourts": [
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
-    "thurrock": {
-      "forecourts": [
-        {
-          "direction": "Westbound",
-          "brand": "ESSO",
-          "prices": {
-            "E5": 189.9,
-            "E10": 175.9,
-            "B7_STANDARD": 185.9,
-            "B7_PREMIUM": 195.9
-          },
-          "last_updated": "2026-06-30T21:48:16.000Z"
-        }
-      ]
-    },
-    "rownhams": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        },
-        {
-          "direction": "Westbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 192.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-25T14:15:13.000Z"
-        }
-      ]
-    },
     "beaconsfield": {
       "forecourts": [
         {
@@ -1437,92 +673,6 @@
             "B7_PREMIUM": 209.9
           },
           "last_updated": "2026-07-03T09:35:02.000Z"
-        }
-      ]
-    },
-    "cherwell-valley": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E5": 196.9,
-            "E10": 177.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 213.9
-          },
-          "last_updated": "2026-06-30T22:28:11.000Z"
-        }
-      ]
-    },
-    "oxford": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "BP",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:35:13.000Z"
-        }
-      ]
-    },
-    "warwick": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 204.9,
-            "E10": 183.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 226.9
-          },
-          "last_updated": "2026-06-25T11:13:44.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 202.9,
-            "E10": 183.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 221.9
-          },
-          "last_updated": "2026-06-25T11:15:54.000Z"
-        }
-      ]
-    },
-    "hopwood-park": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:28:35.000Z"
-        }
-      ]
-    },
-    "tamworth": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "ESSO",
-          "prices": {
-            "E5": 198.9,
-            "E10": 179.9,
-            "B7_STANDARD": 191.9,
-            "B7_PREMIUM": 210.9
-          },
-          "last_updated": "2026-06-30T22:28:17.000Z"
         }
       ]
     },
@@ -1571,32 +721,6 @@
         }
       ]
     },
-    "rivington": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 193.9,
-            "E10": 173.9,
-            "B7_STANDARD": 187.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-30T10:47:59.000Z"
-        },
-        {
-          "direction": "Southbound",
-          "brand": "BP",
-          "prices": {
-            "E5": 193.9,
-            "E10": 173.9,
-            "B7_STANDARD": 187.9,
-            "B7_PREMIUM": 207.9
-          },
-          "last_updated": "2026-06-30T10:40:52.000Z"
-        }
-      ]
-    },
     "birch": {
       "forecourts": [
         {
@@ -1623,21 +747,6 @@
         }
       ]
     },
-    "burtonwood": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 181.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 196.9
-          },
-          "last_updated": "2026-06-29T09:19:32.000Z"
-        }
-      ]
-    },
     "ferrybridge": {
       "forecourts": [
         {
@@ -1650,91 +759,6 @@
             "B7_PREMIUM": 200.9
           },
           "last_updated": "2026-07-03T15:05:26.000Z"
-        }
-      ]
-    },
-    "hartshead-moor": {
-      "forecourts": [
-        {
-          "direction": "Eastbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:27:55.000Z"
-        },
-        {
-          "direction": "Westbound",
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
-          },
-          "last_updated": "2026-06-29T09:27:13.000Z"
-        }
-      ]
-    },
-    "blackburn-with-darwen": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "SHELL",
-          "prices": {
-            "E5": 199.9,
-            "E10": 171.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 214.9
-          },
-          "last_updated": "2026-06-24T09:50:03.000Z"
-        }
-      ]
-    },
-    "abington": {
-      "forecourts": [
-        {
-          "direction": null,
-          "brand": "WELCOME BREAK",
-          "prices": {
-            "E5": 181.9,
-            "E10": 169.9,
-            "B7_STANDARD": 184.9
-          },
-          "last_updated": "2026-06-29T09:17:59.000Z"
-        }
-      ]
-    },
-    "bothwell": {
-      "forecourts": [
-        {
-          "direction": "Southbound",
-          "brand": "ESSO",
-          "prices": {
-            "E5": 200.9,
-            "E10": 181.9,
-            "B7_STANDARD": 195.9,
-            "B7_PREMIUM": 214.9
-          },
-          "last_updated": "2026-06-30T22:51:39.000Z"
-        }
-      ]
-    },
-    "hamilton": {
-      "forecourts": [
-        {
-          "direction": "Northbound",
-          "brand": "ESSO",
-          "prices": {
-            "E5": 198.9,
-            "E10": 179.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 213.9
-          },
-          "last_updated": "2026-06-30T22:55:03.000Z"
         }
       ]
     },
