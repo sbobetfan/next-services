@@ -196,8 +196,23 @@ async function main() {
         throw new Error('Refusing to write empty stations object. The pipeline likely hit a transient API issue.');
     }
 
+    // Reuse the previous timestamp if station data is identical.
+    // This means git diff sees no change and skips the commit, keeping
+    // the git history clean and avoiding pointless Pages rebuilds.
+    let updatedAt = new Date().toISOString();
+    try {
+        const previous = JSON.parse(await fs.readFile(OUTPUT_FILE, 'utf-8'));
+        const sameData = JSON.stringify(previous.stations) === JSON.stringify(outputStations);
+        if (sameData && previous.updated_at) {
+            updatedAt = previous.updated_at;
+            console.log('   (data unchanged — reusing previous timestamp)');
+        }
+    } catch {
+        // No previous file, or unreadable — use fresh timestamp
+    }
+
     const output = {
-        updated_at: new Date().toISOString(),
+        updated_at: updatedAt,
         stations: outputStations,
     };
 

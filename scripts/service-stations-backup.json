@@ -204,6 +204,9 @@
           "name": "McDonald's Drive Thru"
         },
         {
+          "name": "McDonald's Drive Thru"
+        },
+        {
           "name": "Costa Express"
         },
         {
@@ -1127,6 +1130,9 @@
         },
         {
           "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
         }
       ],
       "shops": [
@@ -1137,7 +1143,10 @@
           "name": "WHSmith"
         },
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         }
       ],
       "evCharging": {
@@ -1296,7 +1305,10 @@
           "name": "WHSmith"
         },
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         }
       ],
       "accommodation": {
@@ -1885,6 +1897,9 @@
           "name": "Little Waitrose & Partners"
         },
         {
+          "name": "Little Waitrose & Partners"
+        },
+        {
           "name": "WHSmith"
         }
       ],
@@ -2013,6 +2028,9 @@
       "foodAndDrink": [
         {
           "name": "Burger King"
+        },
+        {
+          "name": "KFC Drive Thru"
         },
         {
           "name": "KFC Drive Thru"
@@ -2260,6 +2278,9 @@
         },
         {
           "name": "Burger King Drive Thru"
+        },
+        {
+          "name": "Burger King Drive Thru"
         }
       ],
       "shops": [
@@ -2440,6 +2461,9 @@
       "shops": [
         {
           "name": "WHSmith"
+        },
+        {
+          "name": "Little Waitrose & Partners"
         },
         {
           "name": "Little Waitrose & Partners"
@@ -2654,6 +2678,9 @@
         },
         {
           "name": "Subway"
+        },
+        {
+          "name": "Starbucks Drive Thru"
         },
         {
           "name": "Starbucks Drive Thru"
@@ -3471,11 +3498,17 @@
         },
         {
           "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
         }
       ],
       "shops": [
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         },
         {
           "name": "Phone Tech"
@@ -3983,6 +4016,9 @@
         },
         {
           "name": "Starbucks on the Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
         },
         {
           "name": "Starbucks Drive Thru"
@@ -4653,7 +4689,10 @@
       ],
       "shops": [
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         },
         {
           "name": "Phone Tech"
@@ -4823,6 +4862,9 @@
           "name": "Little Waitrose & Partners"
         },
         {
+          "name": "Little Waitrose & Partners"
+        },
+        {
           "name": "WYE"
         },
         {
@@ -4959,6 +5001,9 @@
         },
         {
           "name": "LEON"
+        },
+        {
+          "name": "McDonald's Drive Thru"
         },
         {
           "name": "McDonald's Drive Thru"
@@ -5125,6 +5170,9 @@
         },
         {
           "name": "McDonald's Drive Thru"
+        },
+        {
+          "name": "McDonald's Drive Thru"
         }
       ],
       "shops": [
@@ -5135,7 +5183,10 @@
           "name": "WHSmith"
         },
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         }
       ],
       "accommodation": {
@@ -5330,6 +5381,9 @@
           "name": "Little Waitrose & Partners"
         },
         {
+          "name": "Little Waitrose & Partners"
+        },
+        {
           "name": "WYE"
         },
         {
@@ -5472,6 +5526,9 @@
           "name": "McDonald's Drive Thru"
         },
         {
+          "name": "McDonald's Drive Thru"
+        },
+        {
           "name": "LEON"
         },
         {
@@ -5483,7 +5540,10 @@
           "name": "WHSmith"
         },
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         },
         {
           "name": "Phone Tech"
@@ -5577,6 +5637,9 @@
         },
         {
           "name": "M&S Coffee to Go"
+        },
+        {
+          "name": "Starbucks Drive Thru"
         },
         {
           "name": "Starbucks Drive Thru"
@@ -5775,6 +5838,9 @@
           "name": "Little Waitrose & Partners"
         },
         {
+          "name": "Little Waitrose & Partners"
+        },
+        {
           "name": "WYE"
         },
         {
@@ -5953,9 +6019,15 @@
         },
         {
           "name": "Starbucks Drive Thru"
+        },
+        {
+          "name": "Starbucks Drive Thru"
         }
       ],
       "shops": [
+        {
+          "name": "Little Waitrose & Partners"
+        },
         {
           "name": "Little Waitrose & Partners"
         },
@@ -6237,6 +6309,9 @@
           "name": "McDonald's Drive Thru"
         },
         {
+          "name": "McDonald's Drive Thru"
+        },
+        {
           "name": "Pret A Manger"
         },
         {
@@ -6251,7 +6326,10 @@
       ],
       "shops": [
         {
-          "name": "Co-op"
+          "name": "& Co-op"
+        },
+        {
+          "name": "& Co-op"
         },
         {
           "name": "Phone Tech"
@@ -6618,6 +6696,9 @@
           "name": "Starbucks Drive Thru"
         },
         {
+          "name": "Starbucks Drive Thru"
+        },
+        {
           "name": "KFC"
         },
         {
@@ -6694,6 +6775,9 @@
         },
         {
           "name": "Greggs"
+        },
+        {
+          "name": "McDonald's Drive Thru"
         },
         {
           "name": "McDonald's Drive Thru"
