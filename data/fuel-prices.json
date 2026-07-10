@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-10T17:09:19.519Z",
+  "updated_at": "2026-07-10T20:19:54.707Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -37,12 +37,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 186.9,
-            "E10": 167.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 207.9
+            "E5": 187.9,
+            "E10": 168.9,
+            "B7_STANDARD": 189.9,
+            "B7_PREMIUM": 208.9
           },
-          "last_updated": "2026-07-09T15:05:39.000Z"
+          "last_updated": "2026-07-10T20:12:50.000Z"
         }
       ]
     },
@@ -82,12 +82,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 192.9,
-            "E10": 173.9,
-            "B7_STANDARD": 188.9,
-            "B7_PREMIUM": 207.9
+            "E5": 193.9,
+            "E10": 174.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-06-30T22:48:56.000Z"
+          "last_updated": "2026-07-10T20:17:14.000Z"
         }
       ]
     },
@@ -910,12 +910,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 199.9,
-            "E10": 180.9,
-            "B7_STANDARD": 193.9,
-            "B7_PREMIUM": 212.9
+            "E5": 200.9,
+            "E10": 181.9,
+            "B7_STANDARD": 194.9,
+            "B7_PREMIUM": 213.9
           },
-          "last_updated": "2026-06-30T22:45:00.000Z"
+          "last_updated": "2026-07-10T20:17:01.000Z"
         }
       ]
     },
@@ -937,11 +937,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 176.9,
-            "B7_STANDARD": 189.9,
+            "E10": 174.9,
+            "B7_STANDARD": 187.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-03T16:53:02.000Z"
+          "last_updated": "2026-07-10T20:05:02.000Z"
         }
       ]
     },
@@ -1446,12 +1446,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 196.9,
-            "E10": 177.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 213.9
+            "E5": 197.9,
+            "E10": 178.9,
+            "B7_STANDARD": 195.9,
+            "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-06-30T22:28:11.000Z"
+          "last_updated": "2026-07-10T20:11:24.000Z"
         }
       ]
     },
@@ -1519,10 +1519,10 @@
           "prices": {
             "E5": 198.9,
             "E10": 179.9,
-            "B7_STANDARD": 192.9,
-            "B7_PREMIUM": 211.9
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 212.9
           },
-          "last_updated": "2026-07-09T15:03:55.000Z"
+          "last_updated": "2026-07-10T20:11:26.000Z"
         }
       ]
     },
