@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-13T16:05:18.316Z",
+  "updated_at": "2026-07-14T12:05:17.316Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -7,12 +7,12 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:48:55.000Z"
+          "last_updated": "2026-07-14T11:54:44.000Z"
         }
       ]
     },
@@ -97,23 +97,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:42:16.000Z"
+          "last_updated": "2026-07-14T11:55:58.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
             "B7_PREMIUM": 206.9
           },
-          "last_updated": "2026-07-10T11:41:04.000Z"
+          "last_updated": "2026-07-14T11:54:20.000Z"
         }
       ]
     },
@@ -123,12 +123,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:41:15.000Z"
+          "last_updated": "2026-07-14T11:54:20.000Z"
         }
       ]
     },
@@ -194,12 +194,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:35:51.000Z"
+          "last_updated": "2026-07-14T11:40:29.000Z"
         }
       ]
     },
@@ -209,12 +209,12 @@
           "direction": "Northbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:30:41.000Z"
+          "last_updated": "2026-07-14T12:04:18.000Z"
         },
         {
           "direction": "Southbound",
@@ -340,23 +340,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:49:28.000Z"
+          "last_updated": "2026-07-14T11:53:51.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:42:28.000Z"
+          "last_updated": "2026-07-14T11:55:57.000Z"
         }
       ]
     },
@@ -366,23 +366,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T12:00:17.000Z"
+          "last_updated": "2026-07-14T11:53:33.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:40:59.000Z"
+          "last_updated": "2026-07-14T11:53:53.000Z"
         }
       ]
     },
@@ -445,22 +445,22 @@
           "brand": "BP",
           "prices": {
             "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:40:51.000Z"
+          "last_updated": "2026-07-14T11:53:47.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
             "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:46:11.000Z"
+          "last_updated": "2026-07-14T11:54:20.000Z"
         }
       ]
     },
@@ -470,23 +470,23 @@
           "direction": "Eastbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:48:58.000Z"
+          "last_updated": "2026-07-14T11:53:46.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:42:14.000Z"
+          "last_updated": "2026-07-14T11:54:50.000Z"
         }
       ]
     },
@@ -496,23 +496,23 @@
           "direction": "Northbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:24:40.000Z"
+          "last_updated": "2026-07-14T11:59:27.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:25:35.000Z"
+          "last_updated": "2026-07-14T11:59:53.000Z"
         }
       ]
     },
@@ -578,23 +578,23 @@
           "direction": "Eastbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:35:17.000Z"
+          "last_updated": "2026-07-14T11:53:56.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:35:50.000Z"
+          "last_updated": "2026-07-14T11:54:25.000Z"
         }
       ]
     },
@@ -604,23 +604,23 @@
           "direction": "Eastbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:40:59.000Z"
+          "last_updated": "2026-07-14T11:54:13.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:49:15.000Z"
+          "last_updated": "2026-07-14T11:55:29.000Z"
         }
       ]
     },
@@ -726,12 +726,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:40:49.000Z"
+          "last_updated": "2026-07-14T11:54:03.000Z"
         }
       ]
     },
@@ -771,12 +771,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:35:17.000Z"
+          "last_updated": "2026-07-14T11:53:46.000Z"
         }
       ]
     },
@@ -786,23 +786,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 176.9,
-            "E10": 159.9,
-            "B7_STANDARD": 173.9,
-            "B7_PREMIUM": 199.9
+            "E5": 177.9,
+            "E10": 161.9,
+            "B7_STANDARD": 178.9,
+            "B7_PREMIUM": 204.9
           },
-          "last_updated": "2026-07-13T09:15:21.000Z"
+          "last_updated": "2026-07-14T11:54:44.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 176.9,
-            "E10": 159.9,
-            "B7_STANDARD": 173.9,
-            "B7_PREMIUM": 199.9
+            "E5": 177.9,
+            "E10": 161.9,
+            "B7_STANDARD": 178.9,
+            "B7_PREMIUM": 204.9
           },
-          "last_updated": "2026-07-13T09:15:15.000Z"
+          "last_updated": "2026-07-14T11:45:15.000Z"
         }
       ]
     },
@@ -838,12 +838,12 @@
           "direction": null,
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:26:17.000Z"
+          "last_updated": "2026-07-14T12:00:47.000Z"
         }
       ]
     },
@@ -951,12 +951,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:36:31.000Z"
+          "last_updated": "2026-07-14T11:40:49.000Z"
         }
       ]
     },
@@ -966,22 +966,22 @@
           "direction": "Northbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9
           },
-          "last_updated": "2026-06-29T09:21:14.000Z"
+          "last_updated": "2026-07-14T11:56:35.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:22:10.000Z"
+          "last_updated": "2026-07-14T11:57:25.000Z"
         }
       ]
     },
@@ -991,23 +991,23 @@
           "direction": "Northbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:22:56.000Z"
+          "last_updated": "2026-07-14T11:58:08.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:23:39.000Z"
+          "last_updated": "2026-07-14T11:58:47.000Z"
         }
       ]
     },
@@ -1017,12 +1017,12 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 192.9,
-            "E10": 176.9,
-            "B7_STANDARD": 192.9,
-            "B7_PREMIUM": 209.9
+            "E5": 193.9,
+            "E10": 178.9,
+            "B7_STANDARD": 195.9,
+            "B7_PREMIUM": 211.9
           },
-          "last_updated": "2026-07-13T12:10:18.000Z"
+          "last_updated": "2026-07-14T11:53:40.000Z"
         },
         {
           "direction": "Southbound",
@@ -1043,22 +1043,22 @@
           "direction": "Northbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9
           },
-          "last_updated": "2026-06-29T09:29:14.000Z"
+          "last_updated": "2026-07-14T12:03:05.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:29:51.000Z"
+          "last_updated": "2026-07-14T12:03:33.000Z"
         }
       ]
     },
@@ -1083,23 +1083,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
             "B7_PREMIUM": 206.9
           },
-          "last_updated": "2026-07-10T11:40:38.000Z"
+          "last_updated": "2026-07-14T11:54:35.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:49:22.000Z"
+          "last_updated": "2026-07-14T11:54:20.000Z"
         }
       ]
     },
@@ -1109,23 +1109,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 181.9,
-            "E10": 165.9,
-            "B7_STANDARD": 181.9,
-            "B7_PREMIUM": 190.9
+            "E5": 182.9,
+            "E10": 167.9,
+            "B7_STANDARD": 186.9,
+            "B7_PREMIUM": 195.9
           },
-          "last_updated": "2026-07-13T09:15:41.000Z"
+          "last_updated": "2026-07-14T11:55:10.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 181.9,
-            "E10": 165.9,
-            "B7_STANDARD": 181.9,
-            "B7_PREMIUM": 190.9
+            "E5": 182.9,
+            "E10": 167.9,
+            "B7_STANDARD": 186.9,
+            "B7_PREMIUM": 195.9
           },
-          "last_updated": "2026-07-13T09:15:26.000Z"
+          "last_updated": "2026-07-14T11:54:25.000Z"
         }
       ]
     },
@@ -1163,21 +1163,21 @@
           "prices": {
             "E5": 193.9,
             "E10": 178.9,
-            "B7_STANDARD": 192.9,
-            "B7_PREMIUM": 209.9
+            "B7_STANDARD": 195.9,
+            "B7_PREMIUM": 211.9
           },
-          "last_updated": "2026-07-10T14:40:18.000Z"
+          "last_updated": "2026-07-14T11:51:03.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 192.9,
-            "E10": 176.9,
-            "B7_STANDARD": 192.9,
-            "B7_PREMIUM": 208.9
+            "E5": 194.9,
+            "E10": 178.9,
+            "B7_STANDARD": 197.9,
+            "B7_PREMIUM": 213.9
           },
-          "last_updated": "2026-07-13T09:30:57.000Z"
+          "last_updated": "2026-07-14T11:50:29.000Z"
         }
       ]
     },
@@ -1259,12 +1259,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
+            "E5": 192.9,
+            "E10": 175.9,
             "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:55:24.000Z"
+          "last_updated": "2026-07-14T11:54:50.000Z"
         }
       ]
     },
@@ -1289,12 +1289,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:36:05.000Z"
+          "last_updated": "2026-07-14T11:50:50.000Z"
         }
       ]
     },
@@ -1319,12 +1319,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:40:39.000Z"
+          "last_updated": "2026-07-14T11:54:50.000Z"
         }
       ]
     },
@@ -1502,12 +1502,12 @@
           "direction": null,
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:28:35.000Z"
+          "last_updated": "2026-07-14T12:02:31.000Z"
         }
       ]
     },
@@ -1532,12 +1532,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:41:06.000Z"
+          "last_updated": "2026-07-14T11:54:03.000Z"
         }
       ]
     },
@@ -1603,23 +1603,23 @@
           "direction": "Eastbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:35:50.000Z"
+          "last_updated": "2026-07-14T11:53:16.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:41:51.000Z"
+          "last_updated": "2026-07-14T11:54:44.000Z"
         }
       ]
     },
@@ -1644,12 +1644,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 190.9,
-            "E10": 173.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 206.9
+            "E5": 192.9,
+            "E10": 175.9,
+            "B7_STANDARD": 193.9,
+            "B7_PREMIUM": 210.9
           },
-          "last_updated": "2026-07-10T11:49:03.000Z"
+          "last_updated": "2026-07-14T11:41:03.000Z"
         }
       ]
     },
@@ -1659,23 +1659,23 @@
           "direction": "Eastbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:27:55.000Z"
+          "last_updated": "2026-07-14T12:01:23.000Z"
         },
         {
           "direction": "Westbound",
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 183.9,
-            "E10": 171.9,
-            "B7_STANDARD": 186.9,
-            "B7_PREMIUM": 198.9
+            "E5": 184.9,
+            "E10": 172.9,
+            "B7_STANDARD": 191.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-06-29T09:27:13.000Z"
+          "last_updated": "2026-07-14T12:01:50.000Z"
         }
       ]
     },
@@ -1744,12 +1744,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 174.9,
+            "E5": 177.9,
             "E10": 162.9,
             "B7_STANDARD": 177.9,
             "B7_PREMIUM": 189.9
           },
-          "last_updated": "2026-07-13T15:21:10.000Z"
+          "last_updated": "2026-07-14T11:53:47.000Z"
         }
       ]
     }
