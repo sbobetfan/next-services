@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T20:11:56.419Z",
+  "updated_at": "2026-07-14T21:12:57.009Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -82,12 +82,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 193.9,
-            "E10": 174.9,
-            "B7_STANDARD": 191.9,
-            "B7_PREMIUM": 210.9
+            "E5": 194.9,
+            "E10": 175.9,
+            "B7_STANDARD": 194.9,
+            "B7_PREMIUM": 213.9
           },
-          "last_updated": "2026-07-10T20:17:14.000Z"
+          "last_updated": "2026-07-14T20:12:31.000Z"
         }
       ]
     },
@@ -671,10 +671,10 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E10": 177.9,
-            "B7_STANDARD": 195.9
+            "E10": 178.9,
+            "B7_STANDARD": 198.9
           },
-          "last_updated": "2026-07-10T15:17:08.000Z"
+          "last_updated": "2026-07-14T20:18:07.000Z"
         }
       ]
     },
@@ -910,12 +910,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 200.9,
-            "E10": 181.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 213.9
+            "E5": 201.9,
+            "E10": 182.9,
+            "B7_STANDARD": 197.9,
+            "B7_PREMIUM": 216.9
           },
-          "last_updated": "2026-07-10T20:17:01.000Z"
+          "last_updated": "2026-07-14T20:11:58.000Z"
         }
       ]
     },
@@ -1714,12 +1714,12 @@
           "direction": "Southbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 201.9,
-            "E10": 182.9,
-            "B7_STANDARD": 195.9,
-            "B7_PREMIUM": 214.9
+            "E5": 202.9,
+            "E10": 183.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 217.9
           },
-          "last_updated": "2026-07-10T15:21:12.000Z"
+          "last_updated": "2026-07-14T20:13:22.000Z"
         }
       ]
     },
@@ -1729,12 +1729,12 @@
           "direction": "Northbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 198.9,
-            "E10": 179.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 213.9
+            "E5": 199.9,
+            "E10": 180.9,
+            "B7_STANDARD": 197.9,
+            "B7_PREMIUM": 216.9
           },
-          "last_updated": "2026-06-30T22:55:03.000Z"
+          "last_updated": "2026-07-14T20:14:39.000Z"
         }
       ]
     },
