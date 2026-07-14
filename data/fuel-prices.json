@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-14T15:05:18.033Z",
+  "updated_at": "2026-07-14T18:08:56.594Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -141,9 +141,9 @@
             "E5": 189.9,
             "E10": 164.9,
             "B7_STANDARD": 182.9,
-            "B7_PREMIUM": 204.9
+            "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-10T14:13:02.000Z"
+          "last_updated": "2026-07-14T17:13:02.000Z"
         },
         {
           "direction": "Southbound",
@@ -152,9 +152,9 @@
             "E5": 189.9,
             "E10": 164.9,
             "B7_STANDARD": 182.9,
-            "B7_PREMIUM": 204.9
+            "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-10T14:08:03.000Z"
+          "last_updated": "2026-07-14T17:13:02.000Z"
         }
       ]
     },
