@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-16T21:17:09.855Z",
+  "updated_at": "2026-07-17T08:05:18.869Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -812,23 +812,23 @@
           "direction": "Northbound",
           "brand": "Esso",
           "prices": {
-            "E5": 191.9,
-            "E10": 171.9,
-            "B7_STANDARD": 190.9,
-            "B7_PREMIUM": 210.9
+            "E5": 194.9,
+            "E10": 174.9,
+            "B7_STANDARD": 192.9,
+            "B7_PREMIUM": 212.9
           },
-          "last_updated": "2026-07-16T08:14:20.000Z"
+          "last_updated": "2026-07-17T07:52:42.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "Esso",
           "prices": {
-            "E5": 191.9,
-            "E10": 171.9,
-            "B7_STANDARD": 190.9,
-            "B7_PREMIUM": 210.9
+            "E5": 194.9,
+            "E10": 174.9,
+            "B7_STANDARD": 192.9,
+            "B7_PREMIUM": 212.9
           },
-          "last_updated": "2026-07-16T08:14:20.000Z"
+          "last_updated": "2026-07-17T07:52:42.000Z"
         }
       ]
     },
