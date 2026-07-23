@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T14:05:17.097Z",
+  "updated_at": "2026-07-23T16:05:21.103Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -37,12 +37,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 192.9,
-            "E10": 173.9,
-            "B7_STANDARD": 195.9,
-            "B7_PREMIUM": 214.9
+            "E5": 193.9,
+            "E10": 174.9,
+            "B7_STANDARD": 196.9,
+            "B7_PREMIUM": 215.9
           },
-          "last_updated": "2026-07-21T13:46:26.000Z"
+          "last_updated": "2026-07-23T15:06:26.000Z"
         }
       ]
     },
@@ -563,12 +563,12 @@
           "direction": "Westbound",
           "brand": "BP",
           "prices": {
-            "E5": 176.9,
-            "E10": 156.9,
-            "B7_STANDARD": 181.9,
-            "B7_PREMIUM": 201.9
+            "E5": 177.9,
+            "E10": 157.9,
+            "B7_STANDARD": 183.9,
+            "B7_PREMIUM": 203.9
           },
-          "last_updated": "2026-07-21T10:16:53.000Z"
+          "last_updated": "2026-07-23T14:47:22.000Z"
         }
       ]
     },
@@ -671,10 +671,10 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E10": 181.9,
+            "E10": 182.9,
             "B7_STANDARD": 199.9
           },
-          "last_updated": "2026-07-21T13:55:35.000Z"
+          "last_updated": "2026-07-23T15:16:10.000Z"
         }
       ]
     },
@@ -910,12 +910,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 203.9,
-            "E10": 184.9,
+            "E5": 204.9,
+            "E10": 185.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-21T13:50:12.000Z"
+          "last_updated": "2026-07-23T15:10:03.000Z"
         }
       ]
     },
@@ -1203,12 +1203,12 @@
           "direction": "Southbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 201.9,
-            "E10": 182.9,
+            "E5": 202.9,
+            "E10": 183.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-22T15:09:09.000Z"
+          "last_updated": "2026-07-23T15:08:35.000Z"
         }
       ]
     },
@@ -1446,12 +1446,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 201.9,
-            "E10": 182.9,
-            "B7_STANDARD": 200.9,
-            "B7_PREMIUM": 219.9
+            "E5": 202.9,
+            "E10": 183.9,
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-21T13:44:42.000Z"
+          "last_updated": "2026-07-23T15:03:39.000Z"
         }
       ]
     },
@@ -1517,12 +1517,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 202.9,
-            "E10": 183.9,
+            "E5": 203.9,
+            "E10": 184.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-22T15:05:28.000Z"
+          "last_updated": "2026-07-23T15:03:44.000Z"
         }
       ]
     },
@@ -1714,12 +1714,12 @@
           "direction": "Southbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 204.9,
-            "E10": 185.9,
+            "E5": 205.9,
+            "E10": 186.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-21T11:46:23.000Z"
+          "last_updated": "2026-07-23T15:12:02.000Z"
         }
       ]
     },
@@ -1729,12 +1729,12 @@
           "direction": "Northbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 201.9,
-            "E10": 182.9,
+            "E5": 202.9,
+            "E10": 183.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-21T13:52:43.000Z"
+          "last_updated": "2026-07-23T15:12:54.000Z"
         }
       ]
     },
