@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T12:05:21.174Z",
+  "updated_at": "2026-07-23T14:05:17.097Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -82,12 +82,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 198.9,
-            "E10": 179.9,
+            "E5": 200.9,
+            "E10": 181.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-21T13:50:43.000Z"
+          "last_updated": "2026-07-23T13:48:18.000Z"
         }
       ]
     },
