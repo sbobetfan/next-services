@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T11:05:18.091Z",
+  "updated_at": "2026-07-23T12:05:21.174Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -315,11 +315,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 179.9,
+            "E10": 181.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-21T11:03:02.000Z"
+          "last_updated": "2026-07-23T11:28:03.000Z"
         },
         {
           "direction": "Southbound",
