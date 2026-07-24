@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-23T16:05:21.103Z",
+  "updated_at": "2026-07-24T08:09:15.864Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -812,23 +812,23 @@
           "direction": "Northbound",
           "brand": "Esso",
           "prices": {
-            "E5": 194.9,
-            "E10": 174.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 214.9
+            "E5": 198.9,
+            "E10": 178.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-22T07:53:16.000Z"
+          "last_updated": "2026-07-24T07:31:43.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "Esso",
           "prices": {
-            "E5": 194.9,
-            "E10": 174.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 214.9
+            "E5": 198.9,
+            "E10": 178.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-22T07:53:52.000Z"
+          "last_updated": "2026-07-24T07:31:43.000Z"
         }
       ]
     },
@@ -1218,23 +1218,23 @@
           "direction": "Northbound",
           "brand": "Esso",
           "prices": {
-            "E5": 194.9,
-            "E10": 174.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 214.9
+            "E5": 198.9,
+            "E10": 178.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-23T08:31:23.000Z"
+          "last_updated": "2026-07-24T07:40:08.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "Esso",
           "prices": {
-            "E5": 194.9,
-            "E10": 174.9,
-            "B7_STANDARD": 194.9,
-            "B7_PREMIUM": 214.9
+            "E5": 198.9,
+            "E10": 178.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-23T08:31:20.000Z"
+          "last_updated": "2026-07-24T07:40:03.000Z"
         }
       ]
     },
