@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-27T16:05:14.903Z",
+  "updated_at": "2026-07-27T17:05:18.679Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -394,10 +394,10 @@
           "prices": {
             "E5": 202.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 201.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-24T17:15:00.000Z"
+          "last_updated": "2026-07-27T16:15:01.000Z"
         },
         {
           "direction": "Southbound",
@@ -405,10 +405,10 @@
           "prices": {
             "E5": 202.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 201.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-24T17:15:00.000Z"
+          "last_updated": "2026-07-27T16:15:01.000Z"
         }
       ]
     },
@@ -524,10 +524,10 @@
           "prices": {
             "E5": 202.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 201.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-25T08:45:00.000Z"
+          "last_updated": "2026-07-27T16:15:01.000Z"
         },
         {
           "direction": "Southbound",
@@ -535,10 +535,10 @@
           "prices": {
             "E5": 202.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 201.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-24T17:15:00.000Z"
+          "last_updated": "2026-07-27T16:15:01.000Z"
         }
       ]
     },
@@ -1148,10 +1148,10 @@
           "prices": {
             "E5": 202.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 201.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-24T17:15:00.000Z"
+          "last_updated": "2026-07-27T16:15:01.000Z"
         }
       ]
     },
