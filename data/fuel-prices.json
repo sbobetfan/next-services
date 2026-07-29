@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-29T12:05:16.161Z",
+  "updated_at": "2026-07-29T15:11:22.372Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -23,11 +23,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 179.9,
-            "B7_STANDARD": 198.9,
+            "E10": 180.9,
+            "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-24T14:08:03.000Z"
+          "last_updated": "2026-07-29T14:15:03.000Z"
         }
       ]
     },
@@ -68,11 +68,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 184.9,
-            "E10": 179.9,
+            "E10": 180.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-27T14:04:03.000Z"
+          "last_updated": "2026-07-29T14:05:03.000Z"
         }
       ]
     },
@@ -139,22 +139,22 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 171.9,
-            "B7_STANDARD": 193.9,
+            "E10": 172.9,
+            "B7_STANDARD": 194.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-27T17:14:02.000Z"
+          "last_updated": "2026-07-29T14:13:02.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 171.9,
-            "B7_STANDARD": 193.9,
+            "E10": 172.9,
+            "B7_STANDARD": 194.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-27T17:19:03.000Z"
+          "last_updated": "2026-07-29T14:05:03.000Z"
         }
       ]
     },
@@ -757,11 +757,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 180.9,
+            "E10": 181.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-27T14:04:03.000Z"
+          "last_updated": "2026-07-29T14:05:03.000Z"
         }
       ]
     },
@@ -1563,11 +1563,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 181.9,
+            "E10": 182.9,
             "B7_STANDARD": 201.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-27T14:08:02.000Z"
+          "last_updated": "2026-07-29T14:13:02.000Z"
         }
       ]
     },
