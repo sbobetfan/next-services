@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-28T16:05:18.661Z",
+  "updated_at": "2026-07-29T00:07:13.914Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -184,7 +184,7 @@
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-07-22T22:42:09.000Z"
+          "last_updated": "2026-07-28T23:57:42.000Z"
         }
       ]
     },
