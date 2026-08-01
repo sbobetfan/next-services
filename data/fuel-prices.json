@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-07-31T16:05:15.996Z",
+  "updated_at": "2026-08-01T13:05:18.257Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -37,12 +37,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 196.9,
-            "E10": 177.9,
-            "B7_STANDARD": 197.9,
-            "B7_PREMIUM": 216.9
+            "E5": 197.9,
+            "E10": 178.9,
+            "B7_STANDARD": 198.9,
+            "B7_PREMIUM": 217.9
           },
-          "last_updated": "2026-07-29T19:06:59.000Z"
+          "last_updated": "2026-07-31T23:06:13.000Z"
         }
       ]
     },
@@ -82,12 +82,12 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E5": 202.9,
-            "E10": 183.9,
-            "B7_STANDARD": 203.9,
-            "B7_PREMIUM": 222.9
+            "E5": 204.9,
+            "E10": 185.9,
+            "B7_STANDARD": 205.9,
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-07-30T19:03:53.000Z"
+          "last_updated": "2026-07-31T23:10:25.000Z"
         }
       ]
     },
@@ -671,10 +671,10 @@
           "direction": null,
           "brand": "ESSO",
           "prices": {
-            "E10": 184.9,
-            "B7_STANDARD": 203.9
+            "E10": 185.9,
+            "B7_STANDARD": 205.9
           },
-          "last_updated": "2026-07-30T15:11:37.000Z"
+          "last_updated": "2026-07-31T23:15:54.000Z"
         }
       ]
     },
@@ -1577,23 +1577,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 201.9,
-            "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "E5": 204.9,
+            "E10": 184.9,
+            "B7_STANDARD": 203.9,
+            "B7_PREMIUM": 223.9
           },
-          "last_updated": "2026-07-27T11:22:11.000Z"
+          "last_updated": "2026-08-01T07:06:48.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 200.9,
-            "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "E5": 204.9,
+            "E10": 184.9,
+            "B7_STANDARD": 203.9,
+            "B7_PREMIUM": 223.9
           },
-          "last_updated": "2026-07-27T11:27:40.000Z"
+          "last_updated": "2026-08-01T07:07:00.000Z"
         }
       ]
     },
