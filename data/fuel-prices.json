@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-02T15:10:32.077Z",
+  "updated_at": "2026-08-03T07:16:34.138Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -1218,23 +1218,23 @@
           "direction": "Northbound",
           "brand": "Esso",
           "prices": {
-            "E5": 201.9,
-            "E10": 181.9,
-            "B7_STANDARD": 201.9,
-            "B7_PREMIUM": 221.9
+            "E5": 202.9,
+            "E10": 182.9,
+            "B7_STANDARD": 202.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-31T10:23:49.000Z"
+          "last_updated": "2026-08-03T06:40:57.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "Esso",
           "prices": {
-            "E5": 201.9,
-            "E10": 181.9,
-            "B7_STANDARD": 201.9,
-            "B7_PREMIUM": 221.9
+            "E5": 202.9,
+            "E10": 182.9,
+            "B7_STANDARD": 202.9,
+            "B7_PREMIUM": 222.9
           },
-          "last_updated": "2026-07-31T10:23:55.000Z"
+          "last_updated": "2026-08-03T06:40:29.000Z"
         }
       ]
     },
@@ -1577,23 +1577,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 204.9,
-            "E10": 184.9,
+            "E5": 203.9,
+            "E10": 183.9,
             "B7_STANDARD": 203.9,
             "B7_PREMIUM": 223.9
           },
-          "last_updated": "2026-08-01T07:06:48.000Z"
+          "last_updated": "2026-08-03T07:10:02.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 204.9,
-            "E10": 184.9,
+            "E5": 203.9,
+            "E10": 183.9,
             "B7_STANDARD": 203.9,
             "B7_PREMIUM": 223.9
           },
-          "last_updated": "2026-08-01T07:07:00.000Z"
+          "last_updated": "2026-08-03T07:09:25.000Z"
         }
       ]
     },
