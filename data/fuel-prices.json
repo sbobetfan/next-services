@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-05T13:05:19.447Z",
+  "updated_at": "2026-08-05T14:05:19.619Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -70,9 +70,9 @@
             "E5": 184.9,
             "E10": 181.9,
             "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 209.9
+            "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-08-02T06:05:02.000Z"
+          "last_updated": "2026-08-05T13:54:02.000Z"
         }
       ]
     },
@@ -327,10 +327,10 @@
           "prices": {
             "E5": 199.9,
             "E10": 185.9,
-            "B7_STANDARD": 204.9,
+            "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-31T15:31:05.000Z"
+          "last_updated": "2026-08-05T13:53:02.000Z"
         }
       ]
     },
@@ -897,10 +897,10 @@
           "prices": {
             "E5": 199.9,
             "E10": 185.9,
-            "B7_STANDARD": 205.9,
+            "B7_STANDARD": 201.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-31T11:07:03.000Z"
+          "last_updated": "2026-08-05T13:13:02.000Z"
         }
       ]
     },
@@ -927,10 +927,10 @@
           "prices": {
             "E5": 199.9,
             "E10": 185.9,
-            "B7_STANDARD": 205.9,
+            "B7_STANDARD": 201.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-31T10:18:03.000Z"
+          "last_updated": "2026-08-05T13:04:03.000Z"
         },
         {
           "direction": "Southbound",
@@ -938,10 +938,10 @@
           "prices": {
             "E5": 199.9,
             "E10": 185.9,
-            "B7_STANDARD": 205.9,
+            "B7_STANDARD": 201.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-31T10:25:05.000Z"
+          "last_updated": "2026-08-05T13:14:02.000Z"
         }
       ]
     },
