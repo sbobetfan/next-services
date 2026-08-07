@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-07T08:19:15.796Z",
+  "updated_at": "2026-08-07T09:05:19.166Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -1070,10 +1070,10 @@
           "prices": {
             "E5": 198.9,
             "E10": 177.9,
-            "B7_STANDARD": 201.9,
-            "B7_PREMIUM": 222.9
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 220.9
           },
-          "last_updated": "2026-08-04T14:00:05.000Z"
+          "last_updated": "2026-08-07T08:45:00.000Z"
         }
       ]
     },
