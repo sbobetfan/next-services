@@ -52,8 +52,8 @@ async function getAccessToken() {
     return data.data.access_token;
 }
 
-async function fetchPriceBatch(token, batchNumber) {
-    const url = `${BASE_URL}/api/v1/pfs/fuel-prices?batch-number=${batchNumber}`;
+async function fetchBatch(token, path, batchNumber) {
+    const url = `${BASE_URL}${path}?batch-number=${batchNumber}`;
     const response = await fetch(url, {
         headers: { 'Authorization': `Bearer ${token}` },
     });
@@ -125,7 +125,7 @@ async function main() {
 
         let result;
         try {
-            result = await fetchPriceBatch(token, batchNumber);
+            result = await fetchBatch(token, '/api/v1/pfs/fuel-prices', batchNumber);
         } catch (err) {
             console.log('failed');
             throw err;
@@ -153,6 +153,44 @@ async function main() {
     console.log('');
     console.log(`✓ Matched ${priceRecords.size} of ${wantedNodeIds.size} tracked forecourts`);
 
+    // Closure flags live on the station-details endpoint, not fuel-prices.
+    console.log('🏪 Fetching station details (closure flags)...');
+    const closureMap = new Map();  // node_id → { temporary, permanent }
+    let detailsBatch = 1;
+
+    while (true) {
+        process.stdout.write(`   Batch ${detailsBatch}... `);
+
+        let result;
+        try {
+            result = await fetchBatch(token, '/api/v1/pfs', detailsBatch);
+        } catch (err) {
+            console.log('failed');
+            throw err;
+        }
+
+        if (result.done) {
+            console.log(result.status ? `end (HTTP ${result.status})` : 'end');
+            break;
+        }
+
+        let flagged = 0;
+        for (const fc of result.forecourts) {
+            if (wantedNodeIds.has(fc.node_id)) {
+                closureMap.set(fc.node_id, {
+                    temporary: fc.temporary_closure === true,
+                    permanent: fc.permanent_closure === true,
+                });
+                if (fc.temporary_closure || fc.permanent_closure) flagged++;
+            }
+        }
+
+        console.log(`${result.forecourts.length} forecourts (${flagged} closures flagged)`);
+
+        await new Promise(r => setTimeout(r, 500));
+        detailsBatch++;
+    }
+
     console.log('📝 Building output...');
 
     const outputStations = {};
@@ -165,6 +203,13 @@ async function main() {
             const prices = priceRecords.get(fc.node_id);
             if (!prices || prices.length === 0) continue;
 
+            const closure = closureMap.get(fc.node_id);
+            if (closure?.permanent) {
+                // Permanently closed — its prices are stale by definition.
+                console.warn(`   ⚠️ ${stationId}: forecourt is permanently closed — skipping. Consider removing it from station-mapping.json.`);
+                continue;
+            }
+
             const priceMap = {};
             let mostRecentUpdate = null;
 
@@ -176,12 +221,16 @@ async function main() {
                 }
             }
 
-            forecourts.push({
+            const forecourtOut = {
                 direction: fc.direction,
                 brand: fc.brand,
                 prices: priceMap,
                 last_updated: mostRecentUpdate?.toISOString() || null,
-            });
+            };
+            if (closure?.temporary) {
+                forecourtOut.temporarily_closed = true;
+            }
+            forecourts.push(forecourtOut);
         }
 
         if (forecourts.length > 0) {
