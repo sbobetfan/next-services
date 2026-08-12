@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-11T16:05:29.143Z",
+  "updated_at": "2026-08-12T05:16:59.490Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -39,10 +39,10 @@
           "prices": {
             "E5": 200.9,
             "E10": 181.9,
-            "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 218.9
+            "B7_STANDARD": 196.9,
+            "B7_PREMIUM": 215.9
           },
-          "last_updated": "2026-08-06T20:18:10.000Z"
+          "last_updated": "2026-08-11T22:54:38.000Z"
         }
       ]
     },
@@ -84,10 +84,10 @@
           "prices": {
             "E5": 204.9,
             "E10": 185.9,
-            "B7_STANDARD": 205.9,
-            "B7_PREMIUM": 224.9
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-07-31T23:10:25.000Z"
+          "last_updated": "2026-08-11T22:59:20.000Z"
         }
       ]
     },
@@ -912,10 +912,10 @@
           "prices": {
             "E5": 205.9,
             "E10": 186.9,
-            "B7_STANDARD": 202.9,
-            "B7_PREMIUM": 221.9
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-08-05T19:04:18.000Z"
+          "last_updated": "2026-08-11T22:57:48.000Z"
         }
       ]
     },
@@ -1205,10 +1205,10 @@
           "prices": {
             "E5": 204.9,
             "E10": 185.9,
-            "B7_STANDARD": 204.9,
-            "B7_PREMIUM": 223.9
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-08-04T13:33:32.000Z"
+          "last_updated": "2026-08-11T22:56:58.000Z"
         }
       ]
     },
@@ -1714,12 +1714,12 @@
           "direction": "Southbound",
           "brand": "ESSO",
           "prices": {
-            "E5": 206.9,
-            "E10": 187.9,
-            "B7_STANDARD": 204.9,
-            "B7_PREMIUM": 223.9
+            "E5": 203.9,
+            "E10": 184.9,
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-08-06T19:04:14.000Z"
+          "last_updated": "2026-08-11T23:00:03.000Z"
         }
       ]
     },
@@ -1731,10 +1731,10 @@
           "prices": {
             "E5": 204.9,
             "E10": 185.9,
-            "B7_STANDARD": 201.9,
-            "B7_PREMIUM": 220.9
+            "B7_STANDARD": 199.9,
+            "B7_PREMIUM": 218.9
           },
-          "last_updated": "2026-08-06T19:05:11.000Z"
+          "last_updated": "2026-08-11T23:00:45.000Z"
         }
       ]
     },
