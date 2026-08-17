@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-17T11:05:32.647Z",
+  "updated_at": "2026-08-17T12:05:43.288Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -1360,12 +1360,12 @@
           "direction": null,
           "brand": "SHELL",
           "prices": {
-            "E5": 199.9,
-            "E10": 185.9,
+            "E5": 201.9,
+            "E10": 179.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-07-25T11:00:05.000Z"
+          "last_updated": "2026-08-17T11:36:03.000Z"
         }
       ]
     },
@@ -1432,11 +1432,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 214.9,
-            "E10": 185.9,
+            "E10": 181.9,
             "B7_STANDARD": 199.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-08-14T16:14:03.000Z"
+          "last_updated": "2026-08-17T11:32:04.000Z"
         }
       ]
     },
@@ -1746,10 +1746,10 @@
           "prices": {
             "E5": 193.9,
             "E10": 174.9,
-            "B7_STANDARD": 195.9,
-            "B7_PREMIUM": 207.9
+            "B7_STANDARD": 194.9,
+            "B7_PREMIUM": 206.9
           },
-          "last_updated": "2026-08-14T09:55:21.000Z"
+          "last_updated": "2026-08-17T11:25:17.000Z"
         }
       ]
     }
