@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-24T20:12:22.555Z",
+  "updated_at": "2026-08-25T09:05:31.538Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -1053,12 +1053,12 @@
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 202.9,
-            "E10": 181.9,
+            "E5": 206.9,
+            "E10": 185.9,
             "B7_STANDARD": 205.9,
             "B7_PREMIUM": 226.9
           },
-          "last_updated": "2026-08-24T16:00:02.000Z"
+          "last_updated": "2026-08-25T09:00:00.000Z"
         }
       ]
     },
