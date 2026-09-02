@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-02T11:05:29.299Z",
+  "updated_at": "2026-09-02T12:05:29.193Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -300,22 +300,22 @@
           "brand": "SHELL",
           "prices": {
             "E5": 204.9,
-            "E10": 186.9,
+            "E10": 187.9,
             "B7_STANDARD": 201.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-08-27T10:42:04.000Z"
+          "last_updated": "2026-09-02T11:14:03.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 186.9,
+            "E10": 187.9,
             "B7_STANDARD": 201.9,
             "B7_PREMIUM": 209.9
           },
-          "last_updated": "2026-08-27T10:09:02.000Z"
+          "last_updated": "2026-09-02T11:09:02.000Z"
         }
       ]
     },
@@ -881,11 +881,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 204.9,
-            "E10": 186.9,
-            "B7_STANDARD": 205.9,
+            "E10": 187.9,
+            "B7_STANDARD": 206.9,
             "B7_PREMIUM": 219.9
           },
-          "last_updated": "2026-08-25T09:48:02.000Z"
+          "last_updated": "2026-09-02T11:04:03.000Z"
         }
       ]
     },
@@ -911,22 +911,22 @@
           "brand": "SHELL",
           "prices": {
             "E5": 204.9,
-            "E10": 186.9,
-            "B7_STANDARD": 205.9,
+            "E10": 187.9,
+            "B7_STANDARD": 206.9,
             "B7_PREMIUM": 219.9
           },
-          "last_updated": "2026-08-25T09:49:05.000Z"
+          "last_updated": "2026-09-02T11:14:03.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 186.9,
-            "B7_STANDARD": 205.9,
+            "E10": 187.9,
+            "B7_STANDARD": 206.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-08-25T10:25:04.000Z"
+          "last_updated": "2026-09-02T11:14:03.000Z"
         }
       ]
     },
