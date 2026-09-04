@@ -8,7 +8,7 @@ set -euo pipefail
 # On macOS, the keychain usually handles this if you've pushed before.
 HEALTHCHECK_URL="https://hc-ping.com/2cecc532-df80-48a2-82a8-50dc9aa4333d"
 
-trap 'curl -fsS --retry 3 "$HEALTHCHECK_URL/fail" > /dev/null 2>&1; exit 1' ERR
+trap 'exit 1' ERR
 
 # Move to the scripts directory. All paths are relative to this location.
 cd "$(dirname "$0")"
@@ -45,5 +45,4 @@ if git push; then
 else
   echo "❌ Push failed at $(date -u '+%Y-%m-%d %H:%M:%S UTC')"
   osascript -e 'display notification "Push failed — check logs" with title "Next Services" sound name "Basso"' 2>/dev/null || true
-  curl -fsS --retry 3 "$HEALTHCHECK_URL/fail" > /dev/null
 fi
