@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-04T16:05:34.611Z",
+  "updated_at": "2026-09-05T00:12:22.469Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -25,9 +25,9 @@
             "E5": 209.9,
             "E10": 185.9,
             "B7_STANDARD": 202.9,
-            "B7_PREMIUM": 219.9
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-04T08:54:03.000Z"
+          "last_updated": "2026-09-04T17:33:02.000Z"
         }
       ]
     },
@@ -126,9 +126,9 @@
             "E5": 199.9,
             "E10": 174.9,
             "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-03T14:06:02.000Z"
+          "last_updated": "2026-09-04T17:42:03.000Z"
         },
         {
           "direction": "Southbound",
@@ -137,9 +137,9 @@
             "E5": 199.9,
             "E10": 174.9,
             "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-03T14:04:03.000Z"
+          "last_updated": "2026-09-04T17:34:02.000Z"
         }
       ]
     },
@@ -1547,12 +1547,12 @@
           "direction": null,
           "brand": "SHELL",
           "prices": {
-            "E5": 204.9,
+            "E5": 209.9,
             "E10": 186.9,
             "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-03T14:09:03.000Z"
+          "last_updated": "2026-09-04T18:32:03.000Z"
         }
       ]
     },
@@ -1670,12 +1670,12 @@
           "direction": null,
           "brand": "SHELL",
           "prices": {
-            "E5": 199.9,
+            "E5": 204.9,
             "E10": 180.9,
             "B7_STANDARD": 199.9,
-            "B7_PREMIUM": 219.9
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-03T14:06:02.000Z"
+          "last_updated": "2026-09-04T17:54:03.000Z"
         }
       ]
     },
