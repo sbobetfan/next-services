@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-08T10:05:43.480Z",
+  "updated_at": "2026-09-08T11:05:33.915Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -533,12 +533,12 @@
           "direction": null,
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 175.9,
-            "E10": 163.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 201.9
+            "E5": 178.9,
+            "E10": 166.9,
+            "B7_STANDARD": 192.9,
+            "B7_PREMIUM": 204.9
           },
-          "last_updated": "2026-08-28T10:08:38.000Z"
+          "last_updated": "2026-09-08T10:29:04.000Z"
         }
       ]
     },
@@ -696,12 +696,12 @@
           "direction": null,
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 175.9,
-            "E10": 163.9,
-            "B7_STANDARD": 189.9,
-            "B7_PREMIUM": 201.9
+            "E5": 178.9,
+            "E10": 166.9,
+            "B7_STANDARD": 192.9,
+            "B7_PREMIUM": 204.9
           },
-          "last_updated": "2026-08-28T10:46:14.000Z"
+          "last_updated": "2026-09-08T10:38:32.000Z"
         }
       ]
     },
@@ -1446,12 +1446,12 @@
           "direction": null,
           "brand": "BP",
           "prices": {
-            "E5": 197.9,
-            "E10": 185.9,
-            "B7_STANDARD": 205.9,
-            "B7_PREMIUM": 217.9
+            "E5": 201.9,
+            "E10": 189.9,
+            "B7_STANDARD": 209.9,
+            "B7_PREMIUM": 221.9
           },
-          "last_updated": "2026-08-28T10:43:23.000Z"
+          "last_updated": "2026-09-08T10:35:50.000Z"
         }
       ]
     },
@@ -1685,11 +1685,11 @@
           "direction": null,
           "brand": "WELCOME BREAK",
           "prices": {
-            "E5": 195.9,
-            "E10": 183.9,
-            "B7_STANDARD": 203.9
+            "E5": 198.9,
+            "E10": 186.9,
+            "B7_STANDARD": 205.9
           },
-          "last_updated": "2026-08-28T10:04:37.000Z"
+          "last_updated": "2026-09-08T10:27:23.000Z"
         }
       ]
     },
