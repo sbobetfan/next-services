@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-11T16:09:42.613Z",
+  "updated_at": "2026-09-12T22:11:27.056Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -742,11 +742,11 @@
           "brand": "SHELL",
           "prices": {
             "E5": 194.9,
-            "E10": 169.9,
+            "E10": 171.9,
             "B7_STANDARD": 192.9,
             "B7_PREMIUM": 214.9
           },
-          "last_updated": "2026-09-11T10:02:03.000Z"
+          "last_updated": "2026-09-12T09:13:03.000Z"
         }
       ]
     },
@@ -1562,23 +1562,23 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 214.9,
-            "E10": 194.9,
-            "B7_STANDARD": 212.9,
-            "B7_PREMIUM": 232.9
+            "E5": 215.9,
+            "E10": 195.9,
+            "B7_STANDARD": 213.9,
+            "B7_PREMIUM": 233.9
           },
-          "last_updated": "2026-09-10T14:39:40.000Z"
+          "last_updated": "2026-09-12T07:11:57.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
-            "E5": 214.9,
-            "E10": 194.9,
-            "B7_STANDARD": 212.9,
-            "B7_PREMIUM": 232.9
+            "E5": 215.9,
+            "E10": 195.9,
+            "B7_STANDARD": 213.9,
+            "B7_PREMIUM": 233.9
           },
-          "last_updated": "2026-09-10T14:48:43.000Z"
+          "last_updated": "2026-09-12T07:07:43.000Z"
         }
       ]
     },
