@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-20T11:07:37.902Z",
+  "updated_at": "2026-09-21T13:05:32.068Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -1462,22 +1462,22 @@
           "brand": "BP",
           "prices": {
             "E5": 211.9,
-            "E10": 194.9,
-            "B7_STANDARD": 213.9,
+            "E10": 196.9,
+            "B7_STANDARD": 216.9,
             "B7_PREMIUM": 231.9
           },
-          "last_updated": "2026-09-18T12:09:55.000Z"
+          "last_updated": "2026-09-21T11:11:35.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "BP",
           "prices": {
             "E5": 211.9,
-            "E10": 194.9,
-            "B7_STANDARD": 213.9,
+            "E10": 196.9,
+            "B7_STANDARD": 216.9,
             "B7_PREMIUM": 231.9
           },
-          "last_updated": "2026-09-18T12:10:18.000Z"
+          "last_updated": "2026-09-21T11:12:04.000Z"
         }
       ]
     },
@@ -1535,9 +1535,9 @@
             "E5": 215.9,
             "E10": 191.9,
             "B7_STANDARD": 211.9,
-            "B7_PREMIUM": 221.9
+            "B7_PREMIUM": 225.9
           },
-          "last_updated": "2026-09-16T11:31:11.000Z"
+          "last_updated": "2026-09-21T11:08:17.000Z"
         }
       ]
     },
