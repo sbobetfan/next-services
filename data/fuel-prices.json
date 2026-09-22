@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-22T10:05:36.626Z",
+  "updated_at": "2026-09-22T13:05:31.716Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -299,23 +299,23 @@
           "direction": "Northbound",
           "brand": "SHELL",
           "prices": {
-            "E5": 209.9,
-            "E10": 191.9,
+            "E5": 214.9,
+            "E10": 194.9,
             "B7_STANDARD": 209.9,
             "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-14T10:05:05.000Z"
+          "last_updated": "2026-09-22T12:56:03.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 191.9,
+            "E10": 194.9,
             "B7_STANDARD": 209.9,
             "B7_PREMIUM": 219.9
           },
-          "last_updated": "2026-09-14T10:17:03.000Z"
+          "last_updated": "2026-09-22T12:58:04.000Z"
         }
       ]
     },
@@ -880,12 +880,12 @@
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
-            "E5": 209.9,
-            "E10": 191.9,
+            "E5": 214.9,
+            "E10": 194.9,
             "B7_STANDARD": 209.9,
             "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-14T10:08:06.000Z"
+          "last_updated": "2026-09-22T12:54:03.000Z"
         }
       ]
     },
@@ -910,23 +910,23 @@
           "direction": "Northbound",
           "brand": "SHELL",
           "prices": {
-            "E5": 209.9,
-            "E10": 191.9,
+            "E5": 214.9,
+            "E10": 194.9,
             "B7_STANDARD": 209.9,
             "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-14T10:13:03.000Z"
+          "last_updated": "2026-09-22T12:55:03.000Z"
         },
         {
           "direction": "Southbound",
           "brand": "SHELL",
           "prices": {
             "E5": 199.9,
-            "E10": 191.9,
+            "E10": 194.9,
             "B7_STANDARD": 209.9,
             "B7_PREMIUM": 219.9
           },
-          "last_updated": "2026-09-14T14:09:03.000Z"
+          "last_updated": "2026-09-22T12:50:03.000Z"
         }
       ]
     },
@@ -1347,10 +1347,10 @@
           "prices": {
             "E5": 214.9,
             "E10": 189.9,
-            "B7_STANDARD": 201.9,
-            "B7_PREMIUM": 219.9
+            "B7_STANDARD": 204.9,
+            "B7_PREMIUM": 224.9
           },
-          "last_updated": "2026-09-09T10:38:03.000Z"
+          "last_updated": "2026-09-22T12:37:03.000Z"
         }
       ]
     },
