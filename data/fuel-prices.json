@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-24T14:05:30.973Z",
+  "updated_at": "2026-09-24T15:05:32.564Z",
   "stations": {
     "grantham-north": {
       "forecourts": [
@@ -363,11 +363,11 @@
           "brand": "BP",
           "prices": {
             "E5": 216.9,
-            "E10": 196.9,
+            "E10": 198.9,
             "B7_STANDARD": 219.9,
             "B7_PREMIUM": 237.9
           },
-          "last_updated": "2026-09-24T13:51:10.000Z"
+          "last_updated": "2026-09-24T14:13:13.000Z"
         }
       ]
     },
@@ -455,12 +455,12 @@
           "direction": "Eastbound",
           "brand": "BP",
           "prices": {
-            "E5": 214.9,
+            "E5": 216.9,
             "E10": 198.9,
             "B7_STANDARD": 219.9,
             "B7_PREMIUM": 237.9
           },
-          "last_updated": "2026-09-24T13:50:33.000Z"
+          "last_updated": "2026-09-24T14:13:52.000Z"
         },
         {
           "direction": "Westbound",
@@ -577,9 +577,9 @@
             "E5": 216.9,
             "E10": 198.9,
             "B7_STANDARD": 219.9,
-            "B7_PREMIUM": 235.9
+            "B7_PREMIUM": 237.9
           },
-          "last_updated": "2026-09-24T13:51:08.000Z"
+          "last_updated": "2026-09-24T14:13:24.000Z"
         }
       ]
     },
@@ -1002,12 +1002,12 @@
           "direction": "Northbound",
           "brand": "BP",
           "prices": {
-            "E5": 214.9,
+            "E5": 216.9,
             "E10": 198.9,
             "B7_STANDARD": 219.9,
             "B7_PREMIUM": 237.9
           },
-          "last_updated": "2026-09-24T13:50:51.000Z"
+          "last_updated": "2026-09-24T14:12:56.000Z"
         },
         {
           "direction": "Southbound",
@@ -1520,9 +1520,9 @@
             "E5": 216.9,
             "E10": 198.9,
             "B7_STANDARD": 219.9,
-            "B7_PREMIUM": 235.9
+            "B7_PREMIUM": 237.9
           },
-          "last_updated": "2026-09-24T13:50:08.000Z"
+          "last_updated": "2026-09-24T14:13:03.000Z"
         }
       ]
     },
