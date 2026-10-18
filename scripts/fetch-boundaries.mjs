@@ -102,6 +102,13 @@ const OPPOSITE = { north: 'south', south: 'north', east: 'west', west: 'east' };
 // Only use the rule if it agrees with at least this share of named sites.
 const SIDE_RULE_MIN_AGREEMENT = 0.9;
 
+// Sides set by hand, for outlines the rules can't work out. Keyed by OSM ID
+// as shown in the report; look the ID up on openstreetmap.org to see which
+// side it is. Values: 'north', 'south', 'east' or 'west'. On a two-outline
+// site, setting one side sets the other to the opposite.
+// e.g. 'way/61092092': 'north',
+const SIDE_OVERRIDES = {};
+
 function centroid(ring) {
     const lat = ring.reduce((sum, [pLat]) => sum + pLat, 0) / ring.length;
     const lng = ring.reduce((sum, [, pLng]) => sum + pLng, 0) / ring.length;
@@ -141,9 +148,70 @@ function sideFromOffset(offsetDeg, runsNorthSouth) {
     return east > 0 ? 'east' : 'west';
 }
 
-// Sides for a two-outline site by position, or null if they can't be told
-// apart (too close together, too diagonal, or not on opposite sides).
-function sidesByPosition(pair, runsNorthSouth) {
+// The motorway's direction at a station, as a unit vector { east, north }
+// pointing the way that's signed north (or east), from the bearing between
+// the two nearest other services on the same motorway. Null when the road
+// has too few services, or bends too much there to tell.
+function localRoadDirection(station, stations) {
+    const baseName = name => name.replace(/\s*\(?(north|south|east|west)\)?$/i, '');
+    const neighbours = stations
+        .filter(s => s.motorway === station.motorway
+            && s.id !== station.id
+            && baseName(s.name) !== baseName(station.name))
+        .map(s => ({ s, km: haversineKm(station.latitude, station.longitude, s.latitude, s.longitude) }))
+        .sort((a, b) => a.km - b.km)
+        .slice(0, 2)
+        .map(n => n.s);
+    if (neighbours.length < 2) return null;
+
+    const [a, b] = neighbours;
+    const kmPerLng = 111.32 * Math.cos(station.latitude * Math.PI / 180);
+    let east = (b.longitude - a.longitude) * kmPerLng;
+    let north = (b.latitude - a.latitude) * 110.57;
+    const length = Math.hypot(east, north);
+    if (length < 1) return null;
+    east /= length;
+    north /= length;
+
+    const runsNorthSouth = roadRunsNorthSouth(station.motorway, stations) ?? Math.abs(north) >= Math.abs(east);
+    const along = runsNorthSouth ? north : east;
+    if (Math.abs(along) < 0.3) return null;
+    if (along < 0) {
+        east = -east;
+        north = -north;
+    }
+    return { east, north, positive: runsNorthSouth ? 'north' : 'east' };
+}
+
+// Sides for a two-outline site: which side of the motorway's line each
+// outline is on. Services on the left of the north-(or east-)going
+// carriageway serve that direction. Unaffected by the two sides being
+// staggered along the road. Falls back to sidesByOffset when the road's
+// direction there is unknown. Null if they can't be told apart.
+function sidesByPosition(pair, station, stations) {
+    const [a, b] = pair.map(m => centroid(m.ring));
+    if (haversineKm(a.lat, a.lng, b.lat, b.lng) < 0.05) return null;
+
+    const road = localRoadDirection(station, stations);
+    if (!road) return sidesByOffset(pair, roadRunsNorthSouth(station.motorway, stations));
+
+    const middle = { lat: (a.lat + b.lat) / 2, lng: (a.lng + b.lng) / 2 };
+    const kmPerLng = 111.32 * Math.cos(middle.lat * Math.PI / 180);
+    // Distance to the left of the road's line (negative: to the right).
+    const leftKm = c => road.east * (c.lat - middle.lat) * 110.57
+        - road.north * (c.lng - middle.lng) * kmPerLng;
+    const leftA = leftKm(a);
+    const leftB = leftKm(b);
+    // Each must be clearly on its own side (at least 20 m from the line).
+    if (Math.abs(leftA) < 0.02 || Math.sign(leftA) === Math.sign(leftB)) return null;
+
+    const sideFor = left => (left > 0 ? road.positive : OPPOSITE[road.positive]);
+    return [sideFor(leftA), sideFor(leftB)];
+}
+
+// Fallback: sides from the outlines' positions relative to each other. Null
+// if they can't be told apart (too diagonal, or not on opposite sides).
+function sidesByOffset(pair, runsNorthSouth) {
     const [a, b] = pair.map(m => centroid(m.ring));
     if (haversineKm(a.lat, a.lng, b.lat, b.lng) < 0.05) return null;
     const middle = { lat: (a.lat + b.lat) / 2, lng: (a.lng + b.lng) / 2 };
@@ -175,7 +243,7 @@ function inferMissingSides(byStation, stations) {
     const disagreements = [];
     for (const { station, matches } of twoOutlineSites) {
         if (!matches.every(m => m.direction && !m.inferred)) continue;
-        const sides = sidesByPosition(matches, roadRunsNorthSouth(station.motorway, stations));
+        const sides = sidesByPosition(matches, station, stations);
         if (!sides) continue;
         checked++;
         if (sides[0] === matches[0].direction && sides[1] === matches[1].direction) agreed++;
@@ -197,9 +265,9 @@ function inferMissingSides(byStation, stations) {
     const undecided = [];
     for (const { station, matches } of twoOutlineSites) {
         if (matches.some(m => m.direction)) continue;
-        const sides = sidesByPosition(matches, roadRunsNorthSouth(station.motorway, stations));
+        const sides = sidesByPosition(matches, station, stations);
         if (!sides) {
-            undecided.push(station.name);
+            undecided.push(`${station.name} (${matches.map(m => m.osmId).join(', ')})`);
             continue;
         }
         matches.forEach((m, i) => Object.assign(m, { direction: sides[i], inferred: true }));
@@ -207,7 +275,36 @@ function inferMissingSides(byStation, stations) {
     }
     console.log(`   Used it for ${inferred.length} sites with unnamed sides${inferred.length ? `: ${inferred.join(', ')}` : ''}`);
     if (undecided.length > 0) {
-        console.log(`   Couldn't tell the sides apart at: ${undecided.join(', ')}`);
+        console.log(`   Couldn't tell the sides apart at: ${undecided.join('; ')}`);
+        console.log('   Add these to SIDE_OVERRIDES to set them by hand.');
+    }
+}
+
+// Applies SIDE_OVERRIDES, after any inferred sides so a hand-set side wins.
+// On a two-outline site, the other outline gets the opposite side unless it
+// is named or set by hand too.
+function applySideOverrides(byStation) {
+    const applied = [];
+    for (const matches of byStation.values()) {
+        for (const m of matches) {
+            const side = SIDE_OVERRIDES[m.osmId];
+            if (!side) continue;
+            Object.assign(m, { direction: side, inferred: false, overridden: true });
+            applied.push(`${m.osmId} → ${side}bound`);
+        }
+        if (matches.length === 2) {
+            const [a, b] = matches;
+            const fillOpposite = (set, other) => {
+                if (set.overridden && !other.overridden && (other.inferred || !other.direction)) {
+                    Object.assign(other, { direction: OPPOSITE[set.direction], inferred: true });
+                }
+            };
+            fillOpposite(a, b);
+            fillOpposite(b, a);
+        }
+    }
+    if (applied.length > 0) {
+        console.log(`✋ Sides set by hand: ${applied.join(', ')}`);
     }
 }
 
@@ -309,13 +406,15 @@ function extractOutlines(elements) {
             continue;
         }
 
-        for (const ring of rings) {
+        for (const [index, ring] of rings.entries()) {
             const rounded = ring
                 .slice(0, -1)  // the closing point repeats the first
                 .map(p => [Number(p.lat.toFixed(COORD_DECIMALS)), Number(p.lon.toFixed(COORD_DECIMALS))]);
             const name = el.tags?.name || '(unnamed)';
             outlines.push({
-                osmId: `${el.type}/${el.id}`,
+                // Relations with several outlines get #1, #2... so each can
+                // be told apart (e.g. in SIDE_OVERRIDES).
+                osmId: rings.length > 1 ? `${el.type}/${el.id}#${index + 1}` : `${el.type}/${el.id}`,
                 name,
                 direction: directionFromName(name),
                 ring: rounded,
@@ -416,6 +515,7 @@ async function main() {
     }
 
     inferMissingSides(byStation, stations);
+    applySideOverrides(byStation);
 
     console.log('');
     console.log('🔗 Matches (check the OSM names look right):');
@@ -423,7 +523,7 @@ async function main() {
         const matches = byStation.get(station.id);
         if (!matches) continue;
         const detail = matches
-            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m${m.direction ? `, ${m.direction}bound${m.inferred ? ' (inferred)' : ''}` : ''}]`)
+            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m${m.direction ? `, ${m.direction}bound${m.inferred ? ' (inferred)' : ''}${m.overridden ? ' (set by hand)' : ''}` : ''}]`)
             .join('; ');
         console.log(`   ${station.name}: ${detail}`);
     }
