@@ -6,6 +6,10 @@
 // itself. The iOS app uses these outlines to tell someone parked at a
 // services from someone queuing on the carriageway beside it.
 //
+// Each outline records which side of the motorway it serves when its OSM
+// name says (e.g. "Tibshelf Services Northbound"), so the app can show the
+// right side's fuel price.
+//
 // Produces service-boundaries.json. Copy it into the iOS app's
 // MotorwayStop/MotorwayStop/ folder (it's bundled automatically). Stations
 // without an outline fall back to a distance check in the app.
@@ -39,10 +43,11 @@ area["ISO3166-1"="GB"][admin_level=2]->.uk;
 out geom;
 `;
 
-// An outline is assigned to its nearest station, if that station is within
-// this distance of the outline. Generous enough for split sites, where our
-// station point can sit on the carriageway between the two sides.
-const MATCH_RADIUS_KM = 1.0;
+// An outline is assigned to the nearest station whose name it matches, if
+// that station is within this distance of it. The two sides of some sites
+// are well apart (e.g. Strensham), and the name check keeps a wide radius
+// from picking up unrelated areas.
+const MATCH_RADIUS_KM = 2.0;
 
 // 5 decimal places is about 1 m, plenty for telling car park from carriageway.
 const COORD_DECIMALS = 5;
@@ -74,6 +79,16 @@ function namesMatch(stationName, osmName) {
     const osm = osmName.toLowerCase();
     return nameTokens(stationName).some(token => osm.includes(token));
 }
+
+// The side of the motorway an outline serves, from an explicit "Northbound",
+// "Southbound" etc. in its OSM name. Bare "North"/"West" are ignored: they're
+// usually part of the site's own name (Grantham North, Swansea West).
+function directionFromName(name) {
+    const match = name.toLowerCase().match(/\b(north|south|east|west)bound\b/);
+    return match ? match[1] : null;
+}
+
+const OPPOSITE = { north: 'south', south: 'north', east: 'west', west: 'east' };
 
 // Same outline regardless of where its ring starts or which way it runs.
 // Sites mapped both as separate areas and as a group relation would
@@ -177,9 +192,11 @@ function extractOutlines(elements) {
             const rounded = ring
                 .slice(0, -1)  // the closing point repeats the first
                 .map(p => [Number(p.lat.toFixed(COORD_DECIMALS)), Number(p.lon.toFixed(COORD_DECIMALS))]);
+            const name = el.tags?.name || '(unnamed)';
             outlines.push({
                 osmId: `${el.type}/${el.id}`,
-                name: el.tags?.name || '(unnamed)',
+                name,
+                direction: directionFromName(name),
                 ring: rounded,
             });
         }
@@ -234,32 +251,43 @@ async function main() {
     const { outlines, skipped } = extractOutlines(data.elements || []);
     console.log(`   ${outlines.length} outlines found (${skipped} elements had no usable area)`);
 
-    // Assign each outline to its nearest station within the match radius,
-    // if the names agree.
-    const byStation = new Map();  // station id → [{ osmId, name, ring, km }]
-    const seenRings = new Set();
-    const rejected = [];
-    let unmatched = 0;
+    // Drop duplicate outlines (sites mapped both as separate areas and as a
+    // group relation). Keep the copy whose name gives a direction, if any.
+    const unique = new Map();  // ring key → outline
     let duplicates = 0;
     for (const outline of outlines) {
         const key = ringKey(outline.ring);
-        if (seenRings.has(key)) {
+        const existing = unique.get(key);
+        if (existing) {
             duplicates++;
+            if (!existing.direction && outline.direction) unique.set(key, outline);
             continue;
         }
-        seenRings.add(key);
+        unique.set(key, outline);
+    }
 
+    // Assign each outline to the nearest station whose name it matches,
+    // within the match radius.
+    const byStation = new Map();  // station id → [{ osmId, name, direction, ring, km }]
+    const rejected = [];
+    let unmatched = 0;
+    for (const outline of unique.values()) {
         let best = null;
+        let nearest = null;  // regardless of name, for the report
         for (const station of stations) {
             const km = distanceToRingKm(station.latitude, station.longitude, outline.ring);
-            if (!best || km < best.km) best = { station, km };
+            if (km > MATCH_RADIUS_KM) continue;
+            if (!nearest || km < nearest.km) nearest = { station, km };
+            if (namesMatch(station.name, outline.name) && (!best || km < best.km)) {
+                best = { station, km };
+            }
         }
-        if (!best || best.km > MATCH_RADIUS_KM) {
+        if (!nearest) {
             unmatched++;
             continue;
         }
-        if (!namesMatch(best.station.name, outline.name)) {
-            rejected.push({ station: best.station, ...outline, km: best.km });
+        if (!best) {
+            rejected.push({ station: nearest.station, ...outline, km: nearest.km });
             continue;
         }
         if (!byStation.has(best.station.id)) byStation.set(best.station.id, []);
@@ -272,7 +300,7 @@ async function main() {
         const matches = byStation.get(station.id);
         if (!matches) continue;
         const detail = matches
-            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m]`)
+            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m${m.direction ? `, ${m.direction}bound` : ''}]`)
             .join('; ');
         console.log(`   ${station.name}: ${detail}`);
     }
@@ -283,6 +311,23 @@ async function main() {
         for (const r of rejected) {
             console.log(`   ${r.station.name}: ${r.name} [${r.osmId}, ${(r.km * 1000).toFixed(0)} m]`);
         }
+    }
+
+    // A site with e.g. a northbound outline but no southbound one is probably
+    // missing a side (mapped under another name or tag, or not mapped).
+    const oneSided = [];
+    for (const station of stations) {
+        const directions = new Set((byStation.get(station.id) || []).map(m => m.direction).filter(Boolean));
+        for (const direction of directions) {
+            if (!directions.has(OPPOSITE[direction])) {
+                oneSided.push(`${station.name}: has ${direction}bound but no ${OPPOSITE[direction]}bound outline`);
+            }
+        }
+    }
+    if (oneSided.length > 0) {
+        console.log('');
+        console.log('↔️  Sites with only one side found (users on the other side won\'t be recognised there):');
+        for (const line of oneSided) console.log(`   ${line}`);
     }
 
     const missing = stations.filter(s => !byStation.has(s.id));
@@ -298,7 +343,12 @@ async function main() {
         stations: Object.fromEntries(
             [...byStation.entries()]
                 .sort(([a], [b]) => a.localeCompare(b))
-                .map(([id, matches]) => [id, matches.map(m => m.ring)])
+                .map(([id, matches]) => [
+                    id,
+                    matches.map(m => (m.direction
+                        ? { direction: m.direction, points: m.ring }
+                        : { points: m.ring })),
+                ])
         ),
     };
     await fs.writeFile(args.out, JSON.stringify(output));
