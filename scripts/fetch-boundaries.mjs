@@ -317,6 +317,9 @@ async function main() {
     // missing a side (mapped under another name or tag, or not mapped).
     const oneSided = [];
     for (const station of stations) {
+        // Split sites listed as one station per side, e.g. "Sedgemoor
+        // (South)", only ever have their own side.
+        if (/(\(| )(north|south|east|west)\)?$/i.test(station.name)) continue;
         const directions = new Set((byStation.get(station.id) || []).map(m => m.direction).filter(Boolean));
         for (const direction of directions) {
             if (!directions.has(OPPOSITE[direction])) {
