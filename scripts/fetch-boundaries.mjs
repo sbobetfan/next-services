@@ -90,6 +90,127 @@ function directionFromName(name) {
 
 const OPPOSITE = { north: 'south', south: 'north', east: 'west', west: 'east' };
 
+// --- Working out a side when the OSM name doesn't say ---------------------
+//
+// The UK drives on the left, so each direction's services sits on the left
+// of its carriageway: northbound services are west of the motorway,
+// eastbound services north of it, and so on. For a site with two outlines,
+// each outline's offset from the middle of the site, turned 90° clockwise,
+// is the direction its traffic travels. The rule is checked against sites
+// whose sides are named before it's used (see inferMissingSides).
+
+// Only use the rule if it agrees with at least this share of named sites.
+const SIDE_RULE_MIN_AGREEMENT = 0.9;
+
+function centroid(ring) {
+    const lat = ring.reduce((sum, [pLat]) => sum + pLat, 0) / ring.length;
+    const lng = ring.reduce((sum, [, pLng]) => sum + pLng, 0) / ring.length;
+    return { lat, lng };
+}
+
+// Compass bearing from one point to another, in degrees (0 = north).
+function bearingDeg(from, to) {
+    const dy = (to.lat - from.lat) * 110.57;
+    const dx = (to.lng - from.lng) * 111.32 * Math.cos(from.lat * Math.PI / 180);
+    return (Math.atan2(dx, dy) * 180 / Math.PI + 360) % 360;
+}
+
+// Whether a motorway runs mainly north–south (signed northbound/southbound)
+// or east–west, from the spread of its services. Null when it has too few
+// services to tell.
+function roadRunsNorthSouth(motorway, stations) {
+    const onRoad = stations.filter(s => s.motorway === motorway);
+    const lats = onRoad.map(s => s.latitude);
+    const lngs = onRoad.map(s => s.longitude);
+    const nsKm = (Math.max(...lats) - Math.min(...lats)) * 111;
+    const ewKm = (Math.max(...lngs) - Math.min(...lngs)) * 111 * Math.cos((lats[0] ?? 54) * Math.PI / 180);
+    if (Math.max(nsKm, ewKm) < 5) return null;
+    return nsKm >= ewKm;
+}
+
+// The side an outline serves, from its offset bearing from the middle of
+// the site. Null when it's too diagonal to call.
+function sideFromOffset(offsetDeg, runsNorthSouth) {
+    const travel = ((offsetDeg + 90) % 360) * Math.PI / 180;
+    const north = Math.cos(travel);
+    const east = Math.sin(travel);
+    const useNorthSouth = runsNorthSouth ?? Math.abs(north) >= Math.abs(east);
+    const component = useNorthSouth ? north : east;
+    if (Math.abs(component) < 0.3) return null;
+    if (useNorthSouth) return north > 0 ? 'north' : 'south';
+    return east > 0 ? 'east' : 'west';
+}
+
+// Sides for a two-outline site by position, or null if they can't be told
+// apart (too close together, too diagonal, or not on opposite sides).
+function sidesByPosition(pair, runsNorthSouth) {
+    const [a, b] = pair.map(m => centroid(m.ring));
+    if (haversineKm(a.lat, a.lng, b.lat, b.lng) < 0.05) return null;
+    const middle = { lat: (a.lat + b.lat) / 2, lng: (a.lng + b.lng) / 2 };
+    const sideA = sideFromOffset(bearingDeg(middle, a), runsNorthSouth);
+    const sideB = sideFromOffset(bearingDeg(middle, b), runsNorthSouth);
+    if (!sideA || !sideB || OPPOSITE[sideA] !== sideB) return null;
+    return [sideA, sideB];
+}
+
+// Fills in missing sides on two-outline sites. Where one outline is named,
+// the other is its opposite. Where neither is, the drive-on-the-left rule is
+// used, but only if it agrees with the sites whose sides are named.
+// Marks filled-in outlines with inferred: true.
+function inferMissingSides(byStation, stations) {
+    const twoOutlineSites = stations
+        .map(station => ({ station, matches: byStation.get(station.id) || [] }))
+        .filter(({ matches }) => matches.length === 2);
+
+    // 1. One side named: the other is the opposite.
+    for (const { matches } of twoOutlineSites) {
+        const [a, b] = matches;
+        if (a.direction && !b.direction) Object.assign(b, { direction: OPPOSITE[a.direction], inferred: true });
+        else if (b.direction && !a.direction) Object.assign(a, { direction: OPPOSITE[b.direction], inferred: true });
+    }
+
+    // 2. Check the rule against sites with both sides named.
+    let checked = 0;
+    let agreed = 0;
+    const disagreements = [];
+    for (const { station, matches } of twoOutlineSites) {
+        if (!matches.every(m => m.direction && !m.inferred)) continue;
+        const sides = sidesByPosition(matches, roadRunsNorthSouth(station.motorway, stations));
+        if (!sides) continue;
+        checked++;
+        if (sides[0] === matches[0].direction && sides[1] === matches[1].direction) agreed++;
+        else disagreements.push(`${station.name}: named ${matches.map(m => m.direction).join('/')}, rule says ${sides.join('/')}`);
+    }
+
+    console.log('');
+    console.log(`🧭 Drive-on-the-left rule checked on ${checked} sites with named sides: ${agreed} agree`);
+    for (const line of disagreements) console.log(`   ✗ ${line}`);
+
+    const trustRule = checked > 0 && agreed / checked >= SIDE_RULE_MIN_AGREEMENT;
+    if (!trustRule) {
+        console.log('   Not reliable enough here, so sides are left unknown for unnamed outlines.');
+        return;
+    }
+
+    // 3. Apply it to sites where neither side is named.
+    const inferred = [];
+    const undecided = [];
+    for (const { station, matches } of twoOutlineSites) {
+        if (matches.some(m => m.direction)) continue;
+        const sides = sidesByPosition(matches, roadRunsNorthSouth(station.motorway, stations));
+        if (!sides) {
+            undecided.push(station.name);
+            continue;
+        }
+        matches.forEach((m, i) => Object.assign(m, { direction: sides[i], inferred: true }));
+        inferred.push(station.name);
+    }
+    console.log(`   Used it for ${inferred.length} sites with unnamed sides${inferred.length ? `: ${inferred.join(', ')}` : ''}`);
+    if (undecided.length > 0) {
+        console.log(`   Couldn't tell the sides apart at: ${undecided.join(', ')}`);
+    }
+}
+
 // Same outline regardless of where its ring starts or which way it runs.
 // Sites mapped both as separate areas and as a group relation would
 // otherwise be listed twice.
@@ -294,13 +415,15 @@ async function main() {
         byStation.get(best.station.id).push({ ...outline, km: best.km });
     }
 
+    inferMissingSides(byStation, stations);
+
     console.log('');
     console.log('🔗 Matches (check the OSM names look right):');
     for (const station of stations) {
         const matches = byStation.get(station.id);
         if (!matches) continue;
         const detail = matches
-            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m${m.direction ? `, ${m.direction}bound` : ''}]`)
+            .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m${m.direction ? `, ${m.direction}bound${m.inferred ? ' (inferred)' : ''}` : ''}]`)
             .join('; ');
         console.log(`   ${station.name}: ${detail}`);
     }
