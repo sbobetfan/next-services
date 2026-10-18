@@ -20,10 +20,41 @@ if (!CLIENT_ID || !CLIENT_SECRET) {
     process.exit(1);
 }
 
+// Fuel Finder drops connections and returns gateway errors from time to
+// time, often part-way through the batches. Retry those a few times before
+// failing the run.
+const MAX_ATTEMPTS = 4;
+const REQUEST_TIMEOUT_MS = 60_000;
+const RETRYABLE_STATUSES = new Set([408, 429, 500, 502, 503, 504]);
+
+const sleep = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+
+async function fetchWithRetry(url, options = {}) {
+    for (let attempt = 1; ; attempt++) {
+        try {
+            const response = await fetch(url, {
+                ...options,
+                signal: AbortSignal.timeout(REQUEST_TIMEOUT_MS),
+            });
+            if (!RETRYABLE_STATUSES.has(response.status) || attempt === MAX_ATTEMPTS) {
+                return response;
+            }
+            process.stdout.write(`HTTP ${response.status}, retrying... `);
+        } catch (err) {
+            if (attempt === MAX_ATTEMPTS) {
+                throw err;
+            }
+            const reason = err.cause?.code || err.name || err.message;
+            process.stdout.write(`${reason}, retrying... `);
+        }
+        await sleep(5000 * 2 ** (attempt - 1));  // 5s, 10s, 20s
+    }
+}
+
 async function getAccessToken() {
     console.log('🔑 Requesting access token...');
 
-    const response = await fetch(`${BASE_URL}/api/v1/oauth/generate_access_token`, {
+    const response = await fetchWithRetry(`${BASE_URL}/api/v1/oauth/generate_access_token`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -54,7 +85,7 @@ async function getAccessToken() {
 
 async function fetchBatch(token, path, batchNumber) {
     const url = `${BASE_URL}${path}?batch-number=${batchNumber}`;
-    const response = await fetch(url, {
+    const response = await fetchWithRetry(url, {
         headers: { 'Authorization': `Bearer ${token}` },
     });
 
@@ -279,6 +310,9 @@ async function main() {
 }
 
 main().catch(err => {
-    console.error('❌ Error:', err.message);
+    // "fetch failed" on its own says nothing; the cause holds the network
+    // error, e.g. ECONNRESET.
+    const cause = err.cause ? ` (${err.cause.code || err.cause.message})` : '';
+    console.error(`❌ Error: ${err.message}${cause}`);
     process.exit(1);
 });
