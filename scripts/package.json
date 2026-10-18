@@ -8,7 +8,8 @@
     "build-mapping": "node build-mapping.mjs",
     "augment-mapping": "node augment-mapping.mjs",
     "refine-mapping": "node refine-mapping.mjs",
-    "update-prices": "node update-prices.mjs"
+    "update-prices": "node update-prices.mjs",
+    "fetch-boundaries": "node fetch-boundaries.mjs"
   },
   "dependencies": {
     "dotenv": "^16.4.5"
