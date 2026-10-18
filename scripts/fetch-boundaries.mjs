@@ -47,6 +47,39 @@ const MATCH_RADIUS_KM = 1.0;
 // 5 decimal places is about 1 m, plenty for telling car park from carriageway.
 const COORD_DECIMALS = 5;
 
+// Words that don't identify a particular services, ignored when checking an
+// outline's OSM name against the station's name.
+const GENERIC_WORDS = new Set([
+    'services', 'service', 'station', 'area', 'motorway', 'with',
+    'north', 'south', 'east', 'west',
+    'northbound', 'southbound', 'eastbound', 'westbound',
+    'moto', 'roadchef', 'welcome', 'break', 'extramsa', 'extra', 'westmorland',
+]);
+
+// The distinctive words in a name, e.g. "Lancaster (Forton)" → lancaster,
+// forton.
+function nameTokens(name) {
+    return name
+        .toLowerCase()
+        .replace(/[^a-z0-9 ]/g, ' ')
+        .split(/\s+/)
+        .filter(word => word.length >= 4 && !GENERIC_WORDS.has(word));
+}
+
+// An outline counts only if its OSM name contains one of the station name's
+// distinctive words. Stops nearby business parks, petrol stations and
+// unnamed areas also tagged highway=services from being treated as part of
+// the services.
+function namesMatch(stationName, osmName) {
+    const osm = osmName.toLowerCase();
+    return nameTokens(stationName).some(token => osm.includes(token));
+}
+
+// Same outline regardless of where its ring starts or which way it runs.
+// Sites mapped both as separate areas and as a group relation would
+// otherwise be listed twice.
+const ringKey = ring => ring.map(([lat, lng]) => `${lat},${lng}`).sort().join('|');
+
 function haversineKm(lat1, lng1, lat2, lng2) {
     const R = 6371;
     const toRad = deg => deg * Math.PI / 180;
@@ -201,10 +234,21 @@ async function main() {
     const { outlines, skipped } = extractOutlines(data.elements || []);
     console.log(`   ${outlines.length} outlines found (${skipped} elements had no usable area)`);
 
-    // Assign each outline to its nearest station within the match radius.
+    // Assign each outline to its nearest station within the match radius,
+    // if the names agree.
     const byStation = new Map();  // station id → [{ osmId, name, ring, km }]
+    const seenRings = new Set();
+    const rejected = [];
     let unmatched = 0;
+    let duplicates = 0;
     for (const outline of outlines) {
+        const key = ringKey(outline.ring);
+        if (seenRings.has(key)) {
+            duplicates++;
+            continue;
+        }
+        seenRings.add(key);
+
         let best = null;
         for (const station of stations) {
             const km = distanceToRingKm(station.latitude, station.longitude, outline.ring);
@@ -212,6 +256,10 @@ async function main() {
         }
         if (!best || best.km > MATCH_RADIUS_KM) {
             unmatched++;
+            continue;
+        }
+        if (!namesMatch(best.station.name, outline.name)) {
+            rejected.push({ station: best.station, ...outline, km: best.km });
             continue;
         }
         if (!byStation.has(best.station.id)) byStation.set(best.station.id, []);
@@ -227,6 +275,14 @@ async function main() {
             .map(m => `${m.name} [${m.osmId}, ${(m.km * 1000).toFixed(0)} m]`)
             .join('; ');
         console.log(`   ${station.name}: ${detail}`);
+    }
+
+    if (rejected.length > 0) {
+        console.log('');
+        console.log('🚫 Nearby outlines left out because the name doesn\'t match:');
+        for (const r of rejected) {
+            console.log(`   ${r.station.name}: ${r.name} [${r.osmId}, ${(r.km * 1000).toFixed(0)} m]`);
+        }
     }
 
     const missing = stations.filter(s => !byStation.has(s.id));
@@ -252,6 +308,7 @@ async function main() {
     console.log(`✅ Wrote ${args.out}`);
     console.log(`   ${byStation.size} of ${stations.length} stations have an outline • ${sizeKB} KB`);
     console.log(`   ${unmatched} outlines weren't near any of our stations (other services, or ones we don't list)`);
+    console.log(`   ${duplicates} duplicate outlines skipped (sites mapped both as areas and as a group)`);
 }
 
 main().catch(err => {
